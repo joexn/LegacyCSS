@@ -1,5 +1,6 @@
 ## [Legacy Framework](https://legacy-framework.com)
 #### Legacy 2
+###### [Take a look here!](https://legacy-framework.com)
 
 Legacy is a lightweight, simple and modern UI framework.
 
