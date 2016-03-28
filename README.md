@@ -1,5 +1,4 @@
-## [Legacy Framework](https://legacy-framework.com)
-#### Legacy 2
+## Legacy Framework v2
 ###### [Take a look here!](https://legacy-framework.com)
 
 Legacy is a lightweight, simple and modern UI framework.
@@ -13,10 +12,9 @@ We created Legacy to insure that new websites are looking good and ready for the
 There are two releases for Legacy:
 
 * Legacy Release
-* Legacy Pre-Release
 * Legacy Dev
 
-On GitHub you will be able to access the Pre-Release before anyone else.
+Here on GitHub is where I actively edit Legacy.
 
 
 #### Release Cycle
