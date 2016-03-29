@@ -1,6 +1,14 @@
 /*
 
-Legacy 3 Dev
+  _                                   ___    _____             
+ | |                                 |__ \  |  __ \            
+ | |     ___  __ _  __ _  ___ _   _     ) | | |  | | _____   __
+ | |    / _ \/ _` |/ _` |/ __| | | |   / /  | |  | |/ _ \ \ / /
+ | |___|  __/ (_| | (_| | (__| |_| |  / /_  | |__| |  __/\ V / 
+ |______\___|\__, |\__,_|\___|\__, | |____| |_____/ \___| \_/  
+              __/ |            __/ |                           
+             |___/            |___/                            
+
 
 Made with love by @joexn_
  
@@ -313,12 +321,14 @@ a:hover {
     background-color: transparent;
     cursor: pointer;
     box-sizing: border-box;
+    border: 0;
 }
 
 .button:hover,button:hover,input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover,.button:focus,button:focus,input[type="submit"]:focus,input[type="reset"]:focus,input[type="button"]:focus {
     color: #333;
     border-color: #888;
     outline: 0;
+    background-color: #E1E1E1;
 }
 
 .button.button-primary,button.button-primary.button-primary,input[type="submit"].button-primary,input[type="reset"].button-primary,input[type="button"].button-primary {
@@ -644,26 +654,26 @@ hr {
 
 .message-primary {
     color: #FFF;
-    background-color: #33C3F0;
-    border-color: #33C3F0;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB;
 }
 
 .message-success {
     color: #FFF;
-    background-color: #48CFAD;
-    border-color: #48CFAD;
+    background-color: #37BC9B;
+    border-color: #37BC9B;
 }
 
 .message-warning {
     color: #FFF;
-    background-color: #FC6E51;
-    border-color: #FC6E51;
+    background-color: #E9573F;
+    border-color: #E9573F;
 }
 
 .message-alert {
     color: #FFF;
-    background-color: #ED5565;
-    border-color: #ED5565;
+    background-color: #DA4453;
+    border-color: #DA4453;
 }
 
 .header-primary {
@@ -677,7 +687,6 @@ hr {
     color: #FFF;
     background-color: #48CFAD;
     text-align: center;
-    font-size: 17rem;
     padding: 4.5rem 0;
 }
 
@@ -685,7 +694,6 @@ hr {
     color: #FFF;
     background-color: #FC6E51;
     text-align: center;
-    font-size: 17rem;
     padding: 4.5rem 0;
 }
 
@@ -693,6 +701,5 @@ hr {
     color: #FFF;
     background-color: #ED5565;
     text-align: center;
-    font-size: 17rem;
     padding: 4.5rem 0;
 }

@@ -1,5 +1,5 @@
 #### Legacy Framework
-###### For development versions only
+###### Working on: Legacy 2 Dev
 
 Legacy is a lightweight, simple and modern UI framework.
 
@@ -7,6 +7,10 @@ Legacy is a Framework for web developers. They download our stylesheet, link it 
 We created Legacy to insure that new websites are looking good and ready for the future as modern web standards are rapidly changing. We want Legacy to be at the front of it.
 
 ###### [Take a look here!](https://legacy-framework.com)
+
+#### Legacy Beta
+
+I am still working on Legacy, it is no where near as good as I want.
 
 #### Contact me
 
