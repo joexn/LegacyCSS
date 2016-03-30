@@ -26,14 +26,15 @@ body {
     font-size: 1.5em;
     line-height: 1.5;
     font-weight: 300;
-    font-family: "Roboto","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto";
     color: #000;
     margin: 0;
 }
 
-body.center-all {
-    text-align: center;
-}
+.u-full-width { width: 100%; box-sizing: border-box; }
+.u-max-full-width { max-width: 100%; box-sizing: border-box; }
+.u-pull-right { float: right; }
+.u-pull-left { float: left; }
 
 .container {
     position: relative;
@@ -496,7 +497,7 @@ table {
 
 button,.button {
     border: none;
-    margin: 0 `rem 1rem 0;
+    margin: 0 1rem 1rem 0;
 }
 
 input,textarea,select,fieldset {
