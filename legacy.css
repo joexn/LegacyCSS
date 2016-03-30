@@ -613,7 +613,7 @@ hr {
     font-size: 11px;
     font-weight: 300;
     letter-spacing: .2rem;
-    margin-right: 0 1.2rem;
+    margin: 0 1.2rem;
     text-decoration: none;
     line-height: 6.5rem;
     color: #FFF;
@@ -687,19 +687,19 @@ hr {
     color: #FFF;
     background-color: #48CFAD;
     text-align: center;
-    padding: 4.5rem 0;
+    padding: 10rem 0;
 }
 
 .header-warning {
     color: #FFF;
     background-color: #FC6E51;
     text-align: center;
-    padding: 4.5rem 0;
+    padding: 10rem 0;
 }
 
 .header-alert {
     color: #FFF;
     background-color: #ED5565;
     text-align: center;
-    padding: 4.5rem 0;
+    padding: 10rem 0;
 }
