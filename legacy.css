@@ -322,7 +322,9 @@ a:hover {
     background-color: transparent;
     cursor: pointer;
     box-sizing: border-box;
-    border: 0;
+    border: none;
+    margin: 0 1rem 1rem 0;
+	font-family: "Roboto";
 }
 
 .button:hover,button:hover,input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover,.button:focus,button:focus,input[type="submit"]:focus,input[type="reset"]:focus,input[type="button"]:focus {
@@ -479,10 +481,6 @@ th:last-child,td:last-child {
     padding-right: 0;
 }
 
-button,.button {
-    margin-bottom: 1rem;
-}
-
 input,textarea,select,fieldset {
     margin-bottom: 1.5rem;
 }
@@ -493,11 +491,6 @@ pre,blockquote,dl,figure,table,p,ul,ol,form {
 
 table {
     font-family: Roboto;
-}
-
-button,.button {
-    border: none;
-    margin: 0 1rem 1rem 0;
 }
 
 input,textarea,select,fieldset {
