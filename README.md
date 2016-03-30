@@ -1,4 +1,4 @@
-# (Legacy Framework)[https://legacy-framework.com]
+# [Legacy Framework](https://legacy-framework.com)
 ###### Made with ![love](https://legacy-framework.com/Heart.png) by [joexn](https://twitter.com/@joexn_)
 
 Legacy is a lightweight, simple and modern UI framework.
