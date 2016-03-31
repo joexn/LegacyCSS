@@ -4,7 +4,6 @@
 Legacy is a lightweight, simple and modern UI framework.
 <br /><br /><br />
 ##### Contact me
-<br />
 If you need to contact me, send me a tweet [@joexn_](https://twitter.com/@joexn_)
 <br /><br /><br />
 ##### Read this before using Legacy.
