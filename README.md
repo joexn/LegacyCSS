@@ -15,9 +15,7 @@ If you need to contact me, send me a tweet [@joexn_](https://twitter.com/@joexn_
 
 Legacy is still undergoing lots of work. Everyday I push new updates to GitHub so I think its time to explain whats going on:
 
-If you want to use Legacy on your website, include this code:
-
-<link rel="stylesheet" type="text/css" href="https://legacy-framework.com/Legacy-Latest.css">
+If you want to use Legacy on your website, include this code: `<link rel="stylesheet" href="https://legacy-framework.com/Legacy-Latest.css">`
 
 This is the latest version of Legacy, hosted by me. If you view the file, the version number is at the top.
 
