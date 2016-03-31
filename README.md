@@ -2,7 +2,6 @@
 ###### Made with ![love](https://legacy-framework.com/Heart.png) by [joexn](https://twitter.com/@joexn_)
 <br /><br />
 Legacy is a lightweight, simple and modern UI framework.
-> Legacy 2 is in development
 <br />
 - - - -
 <br />
