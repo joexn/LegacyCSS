@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Legacy Framework</title>
+    <link rel="shortcut icon" type="image/png" href="Logo.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../legacy.min.css">
+    <style>
+      .example-grid .column,
+      .example-grid .columns {
+        background: #EEE;
+        text-align: center;
+        border-radius: 4px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        height: 30px;
+        font-family: Roboto;
+        line-height: 30px;
+        margin-bottom: .75rem;
+        font-weight: 300;
+        letter-spacing: .1rem;
+      }
+
+      .docs-example .row,
+      .docs-example.row,
+      .docs-example form {
+        margin-bottom: 0;
+      }
+
+      .heading-font-size {
+        font-size: 1.4rem;
+      }
+
+      .navbar-primary {
+        background-color: #17d6d1;
+      }
+
+      .header-primary {
+        background-color: #17d6d1;
+      }
+
+      .message.message-primary {
+        background-color: #13B5B1;
+      }
+
+      .header-primary .button.button-primary {
+        background-color: #17d6d1;
+      }
+
+      .header-primary .button.button-primary:hover {
+        background-color: #14BAB5;
+      }
+
+      .message.message-primary a {
+        color: #FFF;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar-primary">
+      <nav class="navbar">
+        <div class="container">
+          <center>
+            <ul class="navbar-list">
+              <li class="navbar-item"> <a class="navbar-link active" href="http://legacy-framework.com">Home</a></li>
+            </ul>
+          </center>
+        </div>
+      </nav>
+    </div>
+    <div class="header-primary">
+      <h1>Introducing Legacy Framework</h1>
+      <p>A lightweight, simple and modern UI framework.</p>
+      <center> <a class="button button-primary" href="https://github.com/joexn/Legacy-Framework/releases/">Download from GitHub</a> </center>
+    </div>
+    <div class="message message-primary"><a href="Blog/">Announcing Legacy Dev</a></div>
+    <div class="container">
+      <div class="Space-2-5"></div>
+      <h5 class="text-primary">What is Legacy?</h5>
+      <p>Legacy is a Framework for web developers. They download our stylesheet, link it to their website and they have a modern designed website ready for development.<br> <br> We created Legacy to insure that new websites are looking good and ready for the future as modern web standards are rapidly changing. We want Legacy to be at the front of it.</p>
+      <h5 class="text-primary">How can I download it?</h5>
+      <p>We have now moved all Downloads to <a href="https://github.com/joexn/Legacy-Framework/releases/latest">GitHub</a>.</p><br><br>
+      <h2>Elements</h2>
+      <div class="Space-2-5"></div>
+      <h4>The grid</h4>
+      <div class="row">
+        <div class="example-grid docs-example">
+          <div class="row">
+            <div class="one column">One</div>
+            <div class="eleven columns">Eleven</div>
+          </div>
+          <div class="row">
+            <div class="two columns">Two</div>
+            <div class="ten columns">Ten</div>
+          </div>
+          <div class="row">
+            <div class="three columns">Three</div>
+            <div class="nine columns">Nine</div>
+          </div>
+          <div class="row">
+            <div class="four columns">Four</div>
+            <div class="eight columns">Eight</div>
+          </div>
+          <div class="row">
+            <div class="five columns">Five</div>
+            <div class="seven columns">Seven</div>
+          </div>
+          <div class="row">
+            <div class="six columns">Six</div>
+            <div class="six columns">Six</div>
+          </div>
+          <div class="row">
+            <div class="seven columns">Seven</div>
+            <div class="five columns">Five</div>
+          </div>
+          <div class="row">
+            <div class="eight columns">Eight</div>
+            <div class="four columns">Four</div>
+          </div>
+          <div class="row">
+            <div class="nine columns">Nine</div>
+            <div class="three columns">Three</div>
+          </div>
+          <div class="row">
+            <div class="ten columns">Ten</div>
+            <div class="two columns">Two</div>
+          </div>
+          <div class="row">
+            <div class="eleven columns">Eleven</div>
+            <div class="one column">One</div>
+          </div>
+        </div>
+      </div>
+      <div class="Space-2-5"></div>
+      <h4 class="text-primary">Headings</h4>
+      <h1>Heading 1<span class="heading-font-size"> <code>&lt;h1&gt;</code> 50rem</span></h1>
+      <h2>Heading 2<span class="heading-font-size">&nbsp;<code>&lt;h2&gt;</code> 42rem</span></h2>
+      <h3>Heading 3<span class="heading-font-size"> <code>&lt;h3&gt;</code> 36rem</span></h3>
+      <h4>Heading 4<span class="heading-font-size"> <code>&lt;h4&gt;</code> 30rem</span></h4>
+      <h5>Heading 5<span class="heading-font-size"> <code>&lt;h5&gt;</code> 24rem</span></h5>
+      <h6>Heading 6 <code>&lt;h6&gt;</code> 15rem</h6>
+      <p>Paragraph <code>&lt;p&gt;</code></p>
+      <p><a href=" ">Link </a><span class="heading-font-size"> <code>&lt;a&gt;</code></span></p>
+      <p><span class="text-primary">Primary Text</span><br><span class="text-success">Success Text</span><br><span class="text-warning">Warning Text</span><br><span class="text-alert">Alert Text</span><br></p>
+      <div class="Space-2-5"></div>
+      <h4 class="text-primary">Buttons</h4>
+      <!-- Standard buttons --><a class="button" href="#">Anchor button</a><button>Button element</button><input type="submit" value="submit input"><input type="button" value="button input"><br>
+      <!-- Primary buttons --><a class="button button-primary" href="#">Anchor button</a><button class="button-primary">Button element</button><input class="button-primary" type="submit" value="submit input"><input class="button-primary" type="button" value="button input"><br>
+      <!-- Success buttons --><a class="button button-success" href="#">Anchor button</a><button class="button-success">Button element</button><input class="button-success" type="submit" value="submit input"><input class="button-success" type="button" value="button input"><br>
+      <!-- Warning buttons --><a class="button button-warning" href="#">Anchor button</a><button class="button-warning">Button element</button><input class="button-warning" type="submit" value="submit input"><input class="button-warning" type="button" value="button input"><br>
+      <!-- Alert buttons --><a class="button button-alert" href="#">Anchor button</a><button class="button-alert">Button element</button><input class="button-alert" type="submit" value="submit input"><input class="button-alert" type="button" value="button input">
+      <div class="Space-2-5"></div>
+      <h4 class="text-primary">Forms</h4>
+      <!-- The above form looks like this -->
+      <form>
+        <div class="row">
+          <div class="six columns"> <label for="exampleEmailInput">Your email</label> <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput"> </div>
+          <div class="six columns"> <label for="exampleRecipientInput">Reason for contacting</label> <select class="u-full-width" id="exampleRecipientInput"> <option value="Option 1">Questions</option> <option value="Option 2">Admiration</option> <option value="Option 3">Can I get your number?</option> </select> </div>
+        </div> <label for="exampleMessage">Message</label> <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea> <label class="example-send-yourself-copy"> <input type="checkbox"> <span class="label-body">Send a copy to yourself</span> </label> <input class="button-primary" type="submit" value="Submit"></form>
+      <div class="Space-2-5"></div>
+      <h4 class="text-primary">Code</h4><pre><code>bosy { background-color: #000; color: #FFF;}</code></pre>
+      <div class="Space-2-5"></div>
+      <h4 class="text-primary">Tables</h4>
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>ID</th>
+            <th>Logged In</th>
+            <th>Site</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>JohnnyD123</td>
+            <td>1</td>
+            <td>Yes</td>
+            <td><a href="https://legacy-framework.com">legacy-Framework.com</a></td>
+          </tr>
+          <tr>
+            <td>TheQueen</td>
+            <td>2</td>
+            <td>No</td>
+            <td>N/A</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="Space-10">Made with <img src="resources/Heart.png"> by <a href="https://twitter.com/joexn_">joexn_</a></div>
+    </div>
+  </body>
+</html>
