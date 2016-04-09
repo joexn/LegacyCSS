@@ -1,7 +1,3 @@
-###### I am currently away and will not be continuing development until Saturday the 9th.
-###### Meanwhile, I've started up a blog and plan to be updating it with news and new releases.
-###### Check it out [here](http://joe.akeo.xyz)
-<br /><br />
 # [Legacy Framework](https://legacy-framework.com)
 ###### Made with ![love](https://legacy-framework.com/Heart.png) by [joexn_](https://twitter.com/@joexn_)
 <br /><br />
