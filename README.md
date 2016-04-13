@@ -10,7 +10,7 @@ There are a few ways to download Legacy:
 - Visit the dev: Download the zip from the dev branch (Note: this is under development, some things might not work)
 
 
-##### What's in the download?
+##### What's in the download? (For Legacy 2)
 
 ```
 Legacy/
