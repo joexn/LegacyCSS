@@ -12,8 +12,6 @@ There are a few ways to download Legacy:
 
 ##### What's in the download?
 
-The download includes Skeleton's CSS, Normalize CSS as a reset, a sample favicon, and an index.html as a starting point.
-
 ```
 Legacy/
 ├── index.html
