@@ -1,8 +1,9 @@
 ## [Legacy Framework](https://legacy-framework.com)
 Legacy is a lightweight, simple and modern UI framework.
 <br />
-Check out <https://legacy-framework.com> for examples and details.
-
+Check out <https://legacy-framework.com> for examples and details.<br />
+###### Legacy 2 is in development
+There are going to be some major changes in Legacy 2, including a whole re-write and some amazing new features. Until it's ready (and I'm not rushing it) I will be making fixes and small improvements to Legacy 1.7 and releasing some smaller versions until the Legacy 2 release. 
 ##### Getting started
 
 There are a few ways to download Legacy:
