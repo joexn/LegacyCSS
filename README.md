@@ -1,4 +1,5 @@
 ## [Legacy Framework](https://legacy-framework.com)
+###### [Announcing Legacy 2](http://joexn.com/blog/its-time-for-2/)
 Legacy is a lightweight, simple and modern UI framework.
 <br />
 Check out <https://legacy-framework.com> for examples and details.<br />
@@ -15,11 +16,10 @@ There are a few ways to download Legacy:
 ```
 Legacy/
 ├── GettingStarted.html
-└── assets/
-    ├── legacy.min.css
-    ├── legacy.css
-    ├── legacy.min.js
-    └── legacy.sass
+├── legacy.min.css
+├── legacy.css
+├── legacy.min.js
+└── legacy.sass
 
 
 ```
