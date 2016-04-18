@@ -1,6 +1,9 @@
 ## [Legacy Framework](https://legacy-framework.com)
 ###### [Announcing Legacy 2](http://joexn.com/blog/its-time-for-2/)
+<br />
 Legacy is a lightweight, simple and modern UI framework.
+<br />
+Some things have changed: With the Legacy 2 release all development has moved to the master branch. A better file layout is coming.
 <br />
 Check out <https://legacy-framework.com> for examples and details.<br />
 
