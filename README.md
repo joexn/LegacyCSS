@@ -2,7 +2,8 @@
 
 ```
 
-#### Updates to Legacy, Please read!
+Updates to Legacy, please read!
+
 So, I think it's time to update the way Legacy is downloaded and updated. 
 GitHub will have one branch, Development. Development will contain everything you can download but with a few changes, It won't be the latest preview, it will only be fixes until the next release.
 
