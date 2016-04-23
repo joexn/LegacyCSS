@@ -1,30 +1,22 @@
 ## [Legacy Framework](https://legacy-framework.com)
 
-```
-
-Updates to Legacy, please read!
-
-So, I think it's time to update the way Legacy is downloaded and updated.
-GitHub will have two branches, Stable Development-Preview. 
-Development-Preview will contain everything you can download but with a new changes. 
-Stable will be the same version you download, this is where you can report bugs.
-
-All downloads are being taken off GitHub and moved to the Legacy Framework site. This is just easier for me.
-
-There are some stages of Legacy Development you need to be aware of: 
-- Legacy Dev (In-House Testing and Development)
-- Legacy Development Preview (Public Previews of the Dev Builds)
-- Legacy Stable (Final Release to the Public)
-
-```
-
-###### [Announcing Legacy 2](http://joexn.com/blog/its-time-for-2/)
-<br />
 Legacy is a lightweight, simple and modern UI framework.
 <br />
 Some things have changed: With the Legacy 2 release all development has moved to the master branch. A better file layout is coming.
 <br />
 Check out <https://legacy-framework.com> for examples and details.<br />
+
+```
+
+Updates to Legacy, please read!
+
+The way Legacy is being updated and released is changing.
+
+The 'Stable' branch will now be the default branch and will have updates pushed to it every time there is a new release of Legacy. 
+
+The 'Dev' branch will now be the development branch and will have updates pushed to it every few days. 
+
+```
 
 ##### Getting started
 
