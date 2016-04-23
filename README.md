@@ -1,4 +1,20 @@
 ## [Legacy Framework](https://legacy-framework.com)
+
+```
+
+#### Updates to Legacy, Please read!
+So, I think it's time to update the way Legacy is downloaded and updated. 
+GitHub will have one branch, Development. Development will contain everything you can download but with a few changes, It won't be the latest preview, it will only be fixes until the next release.
+
+All downloads are being taken off GitHub and moved to the Legacy Framework site. This is just easier for me.
+
+There are some stages of Legacy Development you need to be aware of: 
+- Legacy Dev (In-House Testing and Development)
+- Legacy Development Preview (Public Previews of the Dev Builds)
+- Legacy Stable (Final Release to the Public)
+
+```
+
 ###### [Announcing Legacy 2](http://joexn.com/blog/its-time-for-2/)
 <br />
 Legacy is a lightweight, simple and modern UI framework.
@@ -37,8 +53,5 @@ Legacy has only just been taken out of beta. In the 1.# versions, some things mi
 If you want to use Legacy on your website, include this code:
 <br />
 `<link rel="stylesheet" href="https://legacy-framework.com/Legacy-Latest.css">`
-
-###### Legacy 2: in development - release date: June 1st
-There are going to be some major changes in Legacy 2, including a whole re-write and some amazing new features. Until it's ready (and I'm not rushing it) I will be making fixes and small improvements to Legacy 1.7 and releasing some smaller versions until the Legacy 2 release. 
 
 ###### Made with ![love](https://legacy-framework.com/Heart.png) by [joexn_](https://twitter.com/@joexn_)
