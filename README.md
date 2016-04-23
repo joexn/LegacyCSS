@@ -4,8 +4,10 @@
 
 Updates to Legacy, please read!
 
-So, I think it's time to update the way Legacy is downloaded and updated. 
-GitHub will have one branch, Development. Development will contain everything you can download but with a few changes, It won't be the latest preview, it will only be fixes until the next release.
+So, I think it's time to update the way Legacy is downloaded and updated.
+GitHub will have two branches, Stable Development-Preview. 
+Development-Preview will contain everything you can download but with a new changes. 
+Stable will be the same version you download, this is where you can report bugs.
 
 All downloads are being taken off GitHub and moved to the Legacy Framework site. This is just easier for me.
 
