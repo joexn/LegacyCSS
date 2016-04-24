@@ -28,12 +28,11 @@ There are a few ways to download Legacy:
 ##### What's in the download? (For Legacy 2)
 
 ```
-Legacy/
-├── GettingStarted.html
-├── legacy.min.css
-├── legacy.css
-├── legacy.min.js
-└── legacy.sass
+
+GettingStarted.html
+legacy.sass
+legacy.css
+legacy.min.css
 
 
 ```
