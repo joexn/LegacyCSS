@@ -1,7 +1,8 @@
-/*
-    Legacy: lightweight, simple and modern UI framework.
-    Author: Joe Hannon (@joexn_)
+// Legacy 2
+// Made by joexn
+// joexn.com
 
+// Please report any issues to GitHub.
 
 $blue: #33C3F0
 $blue_2: #1EAEDB
@@ -18,8 +19,8 @@ $red_2: #DA4453
 $teal: #ED5565
 $teal_2: #DA4453
 
-$grey: #16202b
-$grey_2: #141d27
+$grey: #37474F
+$grey_2: #263238
 
 $white: #FFFFFF
 $black: #000000
@@ -188,6 +189,7 @@ h1, h2, h3, h4, h5, h6
   margin-top: 0
   margin-bottom: 2rem
   font-weight: 300
+  font: $font_2
 
 h1
   font-size: 4rem
@@ -218,9 +220,6 @@ h6
   font-size: 1.5rem
   line-height: 1.6
   letter-spacing: 0
-
-.TitleFont
-  font-family: $font_2
 
 @media (min-width: 550px)
   h1
@@ -677,9 +676,380 @@ hr
   background-color: $red
   border-color: $red
 
-// Navbar
+#navbar.navbar-default
+  background: $grey
 
+#navbar.navbar-primary
+  background: $blue
 
+#navbar.navbar-success
+  background: $green
+
+#navbar.navbar-warning
+  background: $orange
+
+#navbar.navbar-alert
+  background: $red
+
+// Navbar 
+
+li.active
+  background: $grey_2
+
+#navbar
+  margin: 0
+  padding: 0
+  border: 0
+  list-style: none
+  line-height: 1
+  display: block
+  position: relative
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  font-family: Montserrat, sans-serif
+  ul
+    margin: 0
+    padding: 0
+    border: 0
+    list-style: none
+    line-height: 1
+    display: block
+    position: relative
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    li
+      margin: 0
+      padding: 0
+      border: 0
+      list-style: none
+      line-height: 1
+      display: block
+      position: relative
+      -webkit-box-sizing: border-box
+      -moz-box-sizing: border-box
+      box-sizing: border-box
+      -webkit-transition: all .25s ease-in-out
+      -moz-transition: all .25s ease-in-out
+      -ms-transition: all .25s ease-in-out
+      -o-transition: all .25s ease-in-out
+        transition: all .25s ease-in-out
+      &:hover
+        background-color: $grey_2
+        -webkit-transition: all .25s ease-in-out
+        -moz-transition: all .25s ease-in-out
+        -ms-transition: all .25s ease-in-out
+        -o-transition: all .25s ease-in-out
+        transition: all .25s ease-in-out
+      a
+        margin: 0
+        padding: 0
+        border: 0
+        list-style: none
+        line-height: 1
+        display: block
+        position: relative
+        -webkit-box-sizing: border-box
+        -moz-box-sizing: border-box
+        box-sizing: border-box
+  #menu-button
+    margin: 0
+    padding: 0
+    border: 0
+    list-style: none
+    line-height: 1
+    display: block
+    position: relative
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+  &:after, > ul:after
+    content: "."
+    display: block
+    clear: both
+    visibility: hidden
+    line-height: 0
+    height: 0
+  #menu-button
+    display: none
+  > ul > li
+    float: left
+  &.align-center
+    > ul
+      font-size: 0
+      text-align: center
+      > li
+        display: inline-block
+        float: none
+    ul ul
+      text-align: left
+  &.align-right > ul > li
+    float: right
+  > ul > li
+    > a
+      padding: 17px
+      font-size: 12px
+      letter-spacing: 1px
+      text-decoration: none
+      color: $white
+      font-weight: 700
+      text-transform: uppercase
+    &:hover > a
+      color: $white
+    &.has-sub
+      > a
+        padding-right: 30px
+        &:after
+          position: absolute
+          top: 22px
+          right: 11px
+          width: 8px
+          height: 2px
+          display: block
+          background: $white
+          content: ''
+        &:before
+          position: absolute
+          top: 19px
+          right: 14px
+          display: block
+          width: 2px
+          height: 8px
+          background: $white
+          content: ''
+          -webkit-transition: all .25s ease
+          -moz-transition: all .25s ease
+          -ms-transition: all .25s ease
+          -o-transition: all .25s ease
+          transition: all .25s ease
+      &:hover > a:before
+        top: 23px
+        height: 0
+  ul ul
+    position: absolute
+    left: -9999px
+  &.align-right ul ul
+    text-align: right
+  ul ul li
+    height: 0
+    -webkit-transition: all .25s ease
+    -moz-transition: all .25s ease
+    -ms-transition: all .25s ease
+    -o-transition: all .25s ease
+    transition: all .25s ease
+  li:hover > ul
+    left: auto
+  &.align-right li:hover > ul
+    left: auto
+    right: 0
+  li:hover > ul > li
+    height: 35px
+  ul ul ul
+    margin-left: 100%
+    top: 0
+  &.align-right ul ul ul
+    margin-left: 0
+    margin-right: 100%
+  ul ul li
+    a
+      border-bottom: 1px solid rgba(150, 150, 150, 0.15)
+      padding: 11px 15px
+      width: 170px
+      font-size: 12px
+      text-decoration: none
+      color: $white
+      font-weight: 400
+      background: $grey
+    &:last-child > a, &.last-item > a
+      border-bottom: 0
+    &:hover > a, a:hover
+      color: $white
+    &.has-sub > a:after
+      position: absolute
+      top: 16px
+      right: 11px
+      width: 8px
+      height: 2px
+      display: block
+      background: $white
+      content: ''
+  &.align-right ul ul li.has-sub > a:after
+    right: auto
+    left: 11px
+  ul ul li.has-sub > a:before
+    position: absolute
+    top: 13px
+    right: 14px
+    display: block
+    width: 2px
+    height: 8px
+    background: $white
+    content: ''
+    -webkit-transition: all .25s ease
+    -moz-transition: all .25s ease
+    -ms-transition: all .25s ease
+    -o-transition: all .25s ease
+    transition: all .25s ease
+  &.align-right ul ul li.has-sub > a:before
+    right: auto
+    left: 14px
+  ul ul > li.has-sub:hover > a:before
+    top: 17px
+    height: 0
+  &.small-screen
+    width: 100%
+    ul
+      width: 100%
+      display: none
+    &.align-center > ul
+      text-align: left
+    ul
+      li
+        width: 100%
+        border-top: 1px solid rgba(120, 120, 120, 0.2)
+      ul li
+        height: auto
+    li:hover > ul > li
+      height: auto
+    ul
+      li a
+        width: 100%
+        border-bottom: 0
+      ul
+        li a
+          width: 100%
+          border-bottom: 0
+          padding-left: 25px
+        ul li a
+          padding-left: 35px
+        li
+          a
+            color: $white
+            background: none
+          &:hover > a, &.active > a
+            color: $white
+        position: relative
+        left: 0
+        width: 100%
+        margin: 0
+        text-align: left
+        ul
+          position: relative
+          left: 0
+          width: 100%
+          margin: 0
+          text-align: left
+    > ul > li
+      float: none
+    &.align-right ul ul
+      position: relative
+      left: 0
+      width: 100%
+      margin: 0
+      text-align: left
+    > ul > li.has-sub > a
+      &:after, &:before
+        display: none
+    ul ul > li.has-sub > a
+      &:after, &:before
+        display: none
+    #menu-button
+      display: block
+      padding: 17px
+      color: $white
+      cursor: pointer
+      font-size: 12px
+      text-transform: uppercase
+      font-weight: 700
+      &:after
+        position: absolute
+        top: 22px
+        right: 17px
+        display: block
+        height: 4px
+        width: 20px
+        border-top: 2px solid $white
+        border-bottom: 2px solid $white
+        content: ''
+        box-sizing: content-box
+      &:before
+        position: absolute
+        top: 16px
+        right: 17px
+        display: block
+        height: 2px
+        width: 20px
+        background: $white
+        content: ''
+        box-sizing: content-box
+      &.menu-opened
+        &:after
+          top: 23px
+          border: 0
+          height: 2px
+          width: 15px
+          background: $white
+          -webkit-transform: rotate(45deg)
+          -moz-transform: rotate(45deg)
+          -ms-transform: rotate(45deg)
+          -o-transform: rotate(45deg)
+          transform: rotate(45deg)
+        &:before
+          top: 23px
+          background: $white
+          width: 15px
+          -webkit-transform: rotate(-45deg)
+          -moz-transform: rotate(-45deg)
+          -ms-transform: rotate(-45deg)
+          -o-transform: rotate(-45deg)
+          transform: rotate(-45deg)
+    .submenu-button
+      position: absolute
+      z-index: 99
+      right: 0
+      top: 0
+      display: block
+      border-left: 1px solid rgba(120, 120, 120, 0.2)
+      height: 46px
+      width: 46px
+      cursor: pointer
+      &.submenu-opened
+        background: #262626
+    ul ul .submenu-button
+      height: 34px
+      width: 34px
+    .submenu-button:after
+      position: absolute
+      top: 22px
+      right: 19px
+      width: 8px
+      height: 2px
+      display: block
+      background: $white
+      content: ''
+    ul ul .submenu-button:after
+      top: 15px
+      right: 13px
+    .submenu-button
+      &.submenu-opened:after
+        background: $white
+      &:before
+        position: absolute
+        top: 19px
+        right: 22px
+        display: block
+        width: 2px
+        height: 8px
+        background: $white
+        content: ''
+    ul ul .submenu-button:before
+      top: 12px
+      right: 16px
+    .submenu-button.submenu-opened:before
+      display: none
+    &.select-list
+      padding: 5px
 
 // Header
 
