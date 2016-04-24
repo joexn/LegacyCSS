@@ -1,22 +1,11 @@
 ## [Legacy Framework](https://legacy-framework.com)
-
+###### [Updates to Legacy and Downloads](http://joexn.com/blog/updates-to-legacys-updates-and-downloads/)
 Legacy is a lightweight, simple and modern UI framework.
 <br />
 Some things have changed: With the Legacy 2 release all development has moved to the master branch. A better file layout is coming.
 <br />
 Check out <https://legacy-framework.com> for examples and details.<br />
 
-```
-
-Updates to Legacy, please read!
-
-The way Legacy is being updated and released is changing.
-
-The 'Stable' branch will now be the default branch and will have updates pushed to it every time there is a new release of Legacy. 
-
-The 'Dev' branch will now be the development branch and will have updates pushed to it every few days. 
-
-```
 
 ##### Getting started
 
