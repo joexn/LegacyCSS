@@ -25,7 +25,10 @@ body {
   font-weight: 300;
   font-family: Roboto;
   color: #202020;
-  margin: 0; }
+  margin: 0;
+  top: 53px;
+  position: relative
+}
 
 .container {
   position: relative;
