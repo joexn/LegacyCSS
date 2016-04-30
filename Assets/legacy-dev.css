@@ -484,7 +484,9 @@ hr {
   width: 100%;
   z-index: 5;
   color: #FFFFFF;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  top: 0;
+}
   .navbar ul {
     margin: 0;
     padding: 0;
