@@ -1,3 +1,5 @@
+###### I'm getting ready for the Legacy 3 release. This includes updating the GitHub and website. I've got to make sure everything is compatible and cross browser ready. All  files have been removed from the Dev branch until the next release because these files are redundant.
+<br /><br /><br />
 ## [Legacy Framework](https://legacy-framework.com)
 ###### [Updates to Legacy and Downloads](http://joexn.com/blog/updates-to-legacys-updates-and-downloads/)
 Legacy is a lightweight, simple and modern UI framework.
