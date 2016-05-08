@@ -1,12 +1,12 @@
-![Legacy 3 Poster](http://i.imgur.com/6EFrWbv.png)
-<br /><br /><br />
+<h3><a href="https://legacy-framework.com/Beta/Legacy3" target="_blank">Annoucning Legacy 3.0</a></h3>
+<br />
 ## [Legacy Framework](https://legacy-framework.com)
 Legacy is a lightweight, simple and modern UI framework.
 <br />
-Please check out the dev branch to see all the latest changes to the framework.
-<br />
 Check out <https://legacy-framework.com> for examples and details.<br />
-
+<br />
+Legacy was made as a minimalistic approach to modern web design. Legacy 3 incoroprates everything that makes the web beautiful.
+The colour scheme is from Google's Material Design, and the styles are flat and modern.
 
 #### Getting started
 
@@ -20,7 +20,8 @@ There are a few ways to download Legacy:
 ```
 
 Legacy/
-├── Getting Started.html
+├── GettingStarted.html
+├── MigratingTo3.html
 ├── legacy.css
 ├── legacy.min.css
 └── legacy.sass
@@ -30,7 +31,7 @@ Legacy/
 #### How to install, compress and minify.
 
 
-> Install SASS using NodeJS if you haven't already:
+> Install SASS using if you haven't already:
 
 >     npm i -g sass
 
