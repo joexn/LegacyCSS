@@ -1,4 +1,5 @@
 ## [Legacy Framework](https://legacy-framework.com)
+###### [Introducing Legacy Templates](https://github.com/joexn/Legacy-Templates)
 Legacy is a lightweight, simple and modern UI framework.
 Anyone can download Legacy and use it, all you need to do is head over the the downloads section of the website here, download the latest version then you can start creating your own site.
 
