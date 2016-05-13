@@ -1,7 +1,8 @@
-<h3><a href="https://legacy-framework.com/Beta/Legacy3" target="_blank">Annoucning Legacy 3.0</a></h3>
-<br />
 ## [Legacy Framework](https://legacy-framework.com)
 Legacy is a lightweight, simple and modern UI framework.
+Anyone can download Legacy and use it, all you need to do is head over the the downloads section of the website here, download the latest version then you can start creating your own site.
+
+Legacy is built for anyone, if you either have a lot of knowledge on web design, or none at all.. You can use Legacy to create a neat looking site based on your design preferences.
 <br />
 Check out <https://legacy-framework.com> for examples and details.<br />
 <br />
@@ -11,11 +12,13 @@ The colour scheme is from Google's Material Design, and the styles are flat and 
 #### Getting started
 
 There are a few ways to download Legacy:
-- [Download the zip](https://legacy-framework.com/Downloads)
-- Visit the dev: Download the zip from the dev branch (Note: this is under development, some things might not work)
+- [Download from the website](https://legacy-framework.com/Downloads)
+- To test Legacy, please visit and request an invite to the Legacy Dev Google+ community. Here you'll recieve test versions with some of the latest features.
 
 
 #### What's in the download?
+
+Included in the release is a SASS file,CSS file, minifed CSS file and a 'Getting Started' page.
 
 ```
 
