@@ -10,6 +10,9 @@ Check out <https://legacy-framework.com> for examples and details.<br />
 Legacy was made as a minimalistic approach to modern web design. Legacy 3 incoroprates everything that makes the web beautiful.
 The colour scheme is from Google's Material Design, and the styles are flat and modern.
 
+### Changes to the GitHub
+I am no longer supporting the 'Dev' branch and this will be deleted after the next release. All development previews are going to be tested in-house. There will no longer be any public dev builds.
+
 #### Getting started
 
 There are a few ways to download Legacy:
