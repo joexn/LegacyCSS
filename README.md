@@ -31,6 +31,7 @@ Legacy/
 ├── MigratingTo3.html
 ├── legacy.css
 ├── legacy.min.css
+├── legacy.scss
 └── legacy.sass
 
 ```
