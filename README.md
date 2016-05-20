@@ -1,3 +1,5 @@
+[All development of legacy will be delayed...](https://joexn.com/blog/home/delayed-development)
+<br><br>
 ## [Legacy Framework](https://legacy-framework.com)
 ###### [Updates to Legacy and Downloads](http://joexn.com/blog/updates-to-legacys-updates-and-downloads/)
 Legacy is a lightweight, simple and modern UI framework.
