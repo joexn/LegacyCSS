@@ -41,7 +41,9 @@ Legacy/
 
 > Install SASS using if you haven't already:
 
->     npm i -g sass
+>     gem install sass
+
+> (Depending on your setup, this may or may not require `sudo`.)
 
 > To compile the SASS source code to CSS, use:
 
