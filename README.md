@@ -1,4 +1,4 @@
-## [Legacy Framework](https://legacy-framework.com)
+## [Legacy Framework 3](https://legacy-framework.com)
 Legacy is a lightweight, simple and modern UI framework.
 Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.
 
