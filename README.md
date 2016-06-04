@@ -1,5 +1,5 @@
 ## [Legacy Framework 2.0](https://legacy-framework.com)
-###### [Legacy 3 - Dev Preview 1](https://joexn.com/blog/posts/legacy-3-dev-1)
+###### [Legacy 3 - Dev Preview 1 - April 2016](https://joexn.com/blog/posts/legacy-3-dev-1)
 Legacy is a lightweight, simple and modern UI framework.
 Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.
 
