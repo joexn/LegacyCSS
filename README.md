@@ -1,42 +1,57 @@
-[All development of legacy will be delayed...](https://joexn.com/blog/home/delayed-development)
-<br><br>
 ## [Legacy Framework](https://legacy-framework.com)
-###### [Updates to Legacy and Downloads](http://joexn.com/blog/updates-to-legacys-updates-and-downloads/)
 Legacy is a lightweight, simple and modern UI framework.
-<br />
-Some things have changed: With the Legacy 2 release all development has moved to the master branch. A better file layout is coming.
+Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.
+
+Legacy is built for anyone, if you either have a lot of knowledge on web design, or none at all.. You can use Legacy to create a neat looking site based on your design preferences.
 <br />
 Check out <https://legacy-framework.com> for examples and details.<br />
+<br />
+Legacy was made as a minimalistic approach to modern web design. Legacy 3 incoroprates everything that makes the web beautiful.
+The colour scheme is from Google's Material Design, and the styles are flat and modern.
 
+### Changes to the GitHub
+I am no longer supporting the 'Dev' branch and this will be deleted after the next release. All development previews are going to be hosted on my blog, [found here](https://joexn.com/blog).
 
-##### Getting started
+#### What's in the download?
 
-There are a few ways to download Legacy:
-- [Download the zip](https://github.com/joexn/Legacy/archive/v1.7.zip)
-- Visit the dev: Download the zip from the dev branch (Note: this is under development, some things might not work)
-
-
-##### What's in the download? (For Legacy 2)
-
-```
-
-GettingStarted.html
-legacy.sass
-legacy.css
-legacy.min.css
-
+Included in the release is a SASS file,CSS file, minifed CSS file and a 'Getting Started' page.
+I **DO NOT** minify the CSS files for you or do I release the SCSS version (yet) this can be done by you easily.
 
 ```
 
-##### Contact me and about me
-Visit my website [here](http://joexn.com)
+Legacy/
+├── GettingStarted.html
+├── legacy.css
+└── legacy.sass
+
+```
+
+#### How to install, compress and minify.
+
+
+> Install SASS using if you haven't already:
+
+>     gem install sass
+
+> (Depending on your setup, this may or may not require `sudo`.)
+
+> To compile the SASS source code to CSS, use:
+
+>     sass legacy.sass legacy.css
+
+> To compile the SASS source to a minified file, use:
+
+>     sass -t compressed legacy.sass legacy.min.css
+
+#### Contact me and about me
+Visit my website [joexn.com](http://joexn.com)
 If you need to contact me, send me a tweet here [@joexn_](https://twitter.com/@joexn_)
 
-##### Read this before using Legacy.
-Legacy has only just been taken out of beta. In the 1.# versions, some things might be broken. Everything will be fixed and re-wrote in Legacy 2. 
-<br />
-If you want to use Legacy on your website, include this code:
-<br />
-`<link rel="stylesheet" href="https://legacy-framework.com/Legacy-Latest.css">`
+#### Want us to host it?
+To use Legacy on your site without downloading it, include this code in your <head> tags:
 
-###### Made with ![love](https://legacy-framework.com/Heart.png) by [joexn_](https://twitter.com/@joexn_)
+```
+<link href="https://legacy-framework.com/legacy-latest.min.css" rel="stylesheet">
+```
+
+##### Made by [joexn_](https://joexn.com)
