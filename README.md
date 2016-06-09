@@ -1,4 +1,4 @@
-## [Legacy Framework 3](https://legacy-framework.com)
+## [Legacy Framework 3.1](https://legacy-framework.com)
 ##### [Read the announcement here](https://joexn.com/blog/posts/annoucning-legacy-3)
 ##### [Updates to the GitHub branch and how it will work from now on](https://joexn.com/blog/posts/github-updates)
 Legacy is a lightweight, simple and modern UI framework.
@@ -24,6 +24,7 @@ I **DO NOT** minify the CSS files for you or do I release the SCSS version (yet)
 Legacy/
 ├── GettingStarted.html
 ├── legacy.css
+├── legacy.min.css
 └── legacy.sass
 
 ```
