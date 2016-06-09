@@ -2,7 +2,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 /*
 
-    Legacy 3.1
+    Legacy 3.2
 
     made by joexn
     @joexn_
@@ -701,7 +701,10 @@ hr {
 
 .navbar {
   background-color: #404A54;
-  font-family: Product Sans; }
+  font-family: Product Sans;
+  position: fixed;
+  width: 100%;
+  z-index: 3; }
   .navbar ul {
     margin: 0;
     padding: 0;
@@ -726,7 +729,6 @@ hr {
   .navbar .logo:hover {
     color: #2a3037; }
   .navbar .menu {
-    position: static;
     right: 0px;
     top: 0px;
     clear: both;
