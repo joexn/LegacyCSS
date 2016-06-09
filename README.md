@@ -1,6 +1,7 @@
+## There is a major bug with Legacy 3.1 - It is a navbar breaking issue.
+#### Think you can help? Visit the Issues tab.
+
 ## [Legacy Framework 3.1](https://legacy-framework.com)
-##### [Read the announcement here](https://joexn.com/blog/posts/annoucning-legacy-3)
-##### [Updates to the GitHub branch and how it will work from now on](https://joexn.com/blog/posts/github-updates)
 Legacy is a lightweight, simple and modern UI framework.
 Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.
 
