@@ -10,13 +10,9 @@ Check out <https://legacy-framework.com> for examples and details.<br />
 Legacy was made as a minimalistic approach to modern web design. Legacy 3 incoroprates everything that makes the web beautiful.
 The colour scheme is from Google's Material Design, and the styles are flat and modern.
 
-### Changes to the GitHub
-I am no longer supporting the 'Dev' branch and this will be deleted after the next release. All development previews are going to be hosted on my blog, [found here](https://joexn.com/blog).
-
 #### What's in the download?
 
-Included in the release is a SASS file,CSS file, minifed CSS file and a 'Getting Started' page.
-I **DO NOT** minify the CSS files for you or do I release the SCSS version (yet) this can be done by you easily.
+Included in every release is the SASS file, CSS file, minified CSS file and a Getting Started page.
 
 ```
 
@@ -30,6 +26,10 @@ Legacy/
 
 #### How to install, compress and minify.
 
+I use atom.io <br />
+Atom is a great editor for SASS, CSS, PHP and more. I use extensions which automatically compile SASS file and then automatically minifies them.
+<br /><br />
+If you prefer a more traditional method, use the instructions below.
 
 > Install SASS using if you haven't already:
 
@@ -47,7 +47,7 @@ Legacy/
 
 #### Contact me and about me
 Visit my website [joexn.com](http://joexn.com)
-If you need to contact me, send me a tweet here [@joexn_](https://twitter.com/@joexn_)
+If you need to contact me, you can direct message me on twitter: [@joexn_](https://twitter.com/@joexn_)
 
 #### Want us to host it?
 To use Legacy on your site without downloading it, include this code in your <head> tags:
