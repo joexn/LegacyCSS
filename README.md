@@ -1,5 +1,4 @@
-## [Legacy Framework 3.2](https://legacy-framework.com)
-###### Legacy 3.2 is a urgent update as it fixes a major bug in Legacy. Please update.
+## [Legacy Framework 3.3](https://legacy-framework.com)
 <br />
 Legacy is a lightweight, simple and modern UI framework.
 Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.

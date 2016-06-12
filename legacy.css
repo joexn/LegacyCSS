@@ -2,7 +2,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 /*
 
-    Legacy 3.2
+    Legacy 3.3
 
     made by joexn
     @joexn_
@@ -622,6 +622,8 @@ hr {
   text-align: center;
   padding: 10rem 0;
   margin-bottom: 5rem; }
+  .hero.default h1, .hero.default h2, .hero.default h3, .hero.default h4, .hero.default h5, .hero.default h6, .hero.default p {
+    color: #FFF; }
 
 .hero.primary {
   color: #FFF;
