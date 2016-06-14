@@ -47,7 +47,7 @@ If you prefer a more traditional method, use the instructions below.
 
 #### Contact me and about me
 Visit my website [joexn.com](http://joexn.com)
-If you need to contact me, you can direct message me on twitter: [@joexn_](https://twitter.com/@joexn_)
+If you need to contact me, you can direct message me on twitter: [@j0exn](https://twitter.com/@j0exn)
 
 #### Want us to host it?
 To use Legacy on your site without downloading it, include this code in your <head> tags:
@@ -56,4 +56,4 @@ To use Legacy on your site without downloading it, include this code in your <he
 <link href="https://legacy-framework.com/legacy-latest.min.css" rel="stylesheet">
 ```
 
-##### Made by [joexn_](https://joexn.com)
+##### Made by [j0exn](https://joexn.com)
