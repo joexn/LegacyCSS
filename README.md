@@ -1,5 +1,6 @@
+* **Update July 1st** I am currently away until the third. I am currently experiencing issues wih my phone which is used to log into my accounts so i have sort that out too. Please visit milestones to see when each release is due. I WILL release legacy 4 soon.
+
 ## [Legacy Framework 3.3](https://legacy-framework.com)
-##### [Announcing Legacy 4](https://joexn.com/blog/posts/annoucning-legacy-4)
 <br />
 Legacy is a lightweight, simple and modern UI framework.
 Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.
