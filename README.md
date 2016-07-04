@@ -1,4 +1,4 @@
-* **July 1st, Update:** I am currently away until the third. I am currently experiencing issues wih my phone which is used to log into my accounts so i have sort that out too. Please visit milestones to see when each release is due. I WILL release legacy 4 soon.
+* **July 4th, Update:** Legacy 4 is in full development. Please visit milestones to see when each release is due. I WILL release legacy 4 soon.
 
 ## [Legacy Framework 3.3](https://legacy-framework.com)
 <br />
