@@ -7,7 +7,7 @@ joexn.com
 @j0exn
 
 */
-@import url(https://fonts.googleapis.com/css?family=Product+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 html {
   font-size: 62.5%; }
@@ -16,7 +16,7 @@ body {
   font-size: 1.6em;
   line-height: 1.5;
   font-weight: 300;
-  font-family: Product Sans;
+  font-family: Montserrat;
   color: #404A54;
   margin: 0;
   position: relative;
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #404A54;
   margin-top: 0;
   margin-bottom: 2rem;
-  font-family: Product Sans;
+  font-family: Montserrat;
   font-weight: 300;
   line-height: 1.1; }
 
@@ -151,7 +151,7 @@ p {
   background-color: #FFF;
   text-align: center;
   color: #404A54;
-  font-family: Product Sans;
+  font-family: Montserrat;
   padding: 10rem 0;
   margin-bottom: 5rem; }
   .hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6, .hero p {
@@ -182,7 +182,7 @@ p {
 
 .modal {
   position: fixed;
-  font-family: Product Sans;
+  font-family: Montserrat;
   top: 0;
   right: 0;
   bottom: 0;
@@ -218,7 +218,7 @@ p {
 
 .navbar {
   background-color: #FFF;
-  font-family: Product Sans;
+  font-family: Montserrat;
   font-weight: 100;
   position: fixed;
   width: 100%;
@@ -343,7 +343,7 @@ a {
   float: left; }
 
 .utility-space-2 {
-  font-family: Product Sans;
+  font-family: Montserrat;
   color: #91B9C5;
   padding: 2rem 0;
   text-align: center; }
@@ -351,7 +351,7 @@ a {
     color: #91B9C5; }
 
 .utility-space-5 {
-  font-family: Product Sans;
+  font-family: Montserrat;
   color: #91B9C5;
   padding: 5rem 0;
   text-align: center; }
@@ -359,7 +359,7 @@ a {
     color: #91B9C5; }
 
 .utility-space-10 {
-  font-family: Product Sans;
+  font-family: Montserrat;
   color: #91B9C5;
   padding: 10rem 0;
   text-align: center; }
@@ -501,7 +501,7 @@ code {
   white-space: nowrap;
   background: #404A54;
   color: #FFF;
-  font-family: Product Sans; }
+  font-family: Montserrat; }
 
 pre > code {
   text-align: initial;
@@ -524,7 +524,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
   margin-bottom: 2.5rem; }
 
 table {
-  font-family: Product Sans; }
+  font-family: Montserrat; }
 
 pre, blockquote, dl, figure, table, p, ul, ol, form {
   margin-bottom: 2.5rem; }
@@ -551,7 +551,7 @@ hr {
   letter-spacing: .1rem;
   cursor: pointer;
   margin: 0 0 1rem 0;
-  font-family: Product Sans;
+  font-family: Montserrat;
   background-color: #FFF;
   border-radius: 6px;
   border: 0; }
@@ -592,7 +592,7 @@ hr {
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.09), 0 3px 6px rgba(0, 0, 0, 0.06); }
 
 input::-webkit-input-placeholder {
-  font-family: Product Sans;
+  font-family: Montserrat;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
@@ -601,7 +601,7 @@ input {
   width: 200px;
   display: block;
   border: none;
-  font-family: Product Sans;
+  font-family: Montserrat;
   padding: 10px 0;
   border-bottom: solid 1px #33C3F0;
   -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
