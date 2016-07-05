@@ -1,6 +1,6 @@
 # [Legacy Framework 3.4](https://legacy-framework.com) 
 ### modern design, lightweight framework
-![unstable](https://joexn.com/files/images/other/Unstable.png)
+![unstable](https://img.shields.io/badge/Stability-Unstable-Orange.svg)
 
 Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.
 Legacy is built for anyone, if you either have a lot of knowledge on web design, or none at all.. You can use Legacy to create a neat looking site based on your design preferences.
