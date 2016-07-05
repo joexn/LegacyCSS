@@ -1,19 +1,30 @@
-* **July 4th, Update:** Legacy 4 is in full development. Please visit milestones to see when each release is due. I WILL release legacy 4 soon.
+# [Legacy Framework 4](https://legacy-framework.com)
+### modern design, lightweight framework
 
-## [Legacy Framework 3.3](https://legacy-framework.com)
-<br />
-Legacy is a lightweight, simple and modern UI framework.
 Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.
-
 Legacy is built for anyone, if you either have a lot of knowledge on web design, or none at all.. You can use Legacy to create a neat looking site based on your design preferences.
 <br />
 Check out <https://legacy-framework.com> for examples and details.<br />
 <br />
-Legacy was made as a minimalistic approach to modern web design. Legacy 3 incoroprates everything that makes the web beautiful.
-The colour scheme is from Google's Material Design, and the styles are flat and modern.
+Legacy was made as a minimalistic approach to modern web design. Legacy continues to be updated with improved code for the future.
+The colour scheme is from Google's Material Design, and the styles are flat and very modern.
 
-### Suggest a feature
-[![Feature Requests](http://feathub.com/j0exn/Legacy-Framework?format=svg)](http://feathub.com/j0exn/Legacy-Framework)
+#### Todo
+Have a suggestion? Make an issue with the tag [Suggestion]
+
+- [x] Themes
+- [x] Templates
+- [ ] SCSS (In Development)
+- [ ] Online Customization
+- [ ] Online Navigation Bar Generator
+- [ ] New Inputs
+- [ ] Support for ####### :wink:
+
+
+#### Themes
+
+Don't like the vanilla look of Legacy? Head over to the [themes](https://legacy-framework.com/themes/) page to get started with themes, It will be limited in this release so why not make your own theme?
+If you love what you've created, email it to me and I'll showcase it on the website.
 
 #### What's in the download?
 
@@ -22,19 +33,20 @@ Included in every release is the SASS file, CSS file, minified CSS file and a Ge
 ```
 
 Legacy/
-├── GettingStarted.html
+├── Hello.html
+├── LICENSE
 ├── legacy.css
 ├── legacy.min.css
+├── legacy-core.sass
 └── legacy.sass
 
 ```
 
 #### How to install, compress and minify.
 
-I use atom.io <br />
-Atom is a great editor for SASS, CSS, PHP and more. I use extensions which automatically compile SASS file and then automatically minifies them.
+I use [Atom](https://atom.io) to code SASS, then it automatically compiles and minifies the files for me. <br />
 <br /><br />
-If you prefer a more traditional method, use the instructions below.
+Prefer a more traditional method? Use the instructions below.
 
 > Install SASS using if you haven't already:
 
@@ -44,15 +56,15 @@ If you prefer a more traditional method, use the instructions below.
 
 > To compile the SASS source code to CSS, use:
 
->     sass legacy.sass legacy.css
+>     sass legacy-core.sass legacy.css
 
 > To compile the SASS source to a minified file, use:
 
 >     sass -t compressed legacy.sass legacy.min.css
 
-#### Contact me and about me
-Visit my website [joexn.com](http://joexn.com)
-If you need to contact me, you can direct message me on twitter: [@j0exn](https://twitter.com/@j0exn)
+#### Please note
+
+You are allowed to host your own themes and templates for Legacy on your own site but you are **NOT** allowed to show ads on the page. Any form of monetization is not allowed.
 
 #### Want us to host it?
 To use Legacy on your site without downloading it, include this code in your <head> tags:
@@ -61,4 +73,5 @@ To use Legacy on your site without downloading it, include this code in your <he
 <link href="https://legacy-framework.com/legacy-latest.min.css" rel="stylesheet">
 ```
 
-##### Made by [j0exn](https://joexn.com)
+<br><br>
+##### [made by joexn :ok_hand:](https://joexn.com)
