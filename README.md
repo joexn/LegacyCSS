@@ -1,4 +1,4 @@
-# [Legacy Framework 3.4](https://legacy-framework.com) ![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)
+# [Legacy Framework 3.4](https://legacy-framework.com) ![unstable](https://img.shields.io/badge/stability-unstable-yellow.svg?style=flat-square)
 ### modern design, lightweight framework
 
 Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.
