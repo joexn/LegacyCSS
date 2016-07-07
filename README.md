@@ -2,6 +2,8 @@
 ### modern design, lightweight framework
 ![development](https://img.shields.io/badge/ Stability: - Unstable -yellow.svg)
 
+(If you haven't been keeping up the with the development of Legacy, it was recently discussed that the previous versions haven't been stable enough for public use. This version is currently unstable and I'd wait until 4.0 is released before you use Legacy)
+
 Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.
 Legacy is built for anyone, if you either have a lot of knowledge on web design, or none at all.. You can use Legacy to create a neat looking site based on your design preferences.
 <br />
@@ -10,22 +12,6 @@ Check out <https://legacy-framework.com> for examples and details.<br />
 Legacy was made as a minimalistic approach to modern web design. Legacy continues to be updated with improved code for the future.
 The colour scheme is from Google's Material Design, and the styles are flat and very modern.
 
-#### Todo
-Have a suggestion? Make an issue with the tag [Suggestion]
-
-- [x] Themes
-- [x] Templates
-- [ ] SCSS (In Development)
-- [ ] Online Customization
-- [ ] Online Navigation Bar Generator
-- [ ] New Inputs
-- [ ] Support for ####### :wink:
-
-
-#### Themes
-
-Don't like the vanilla look of Legacy? Head over to the [themes](https://legacy-framework.com/themes/) page to get started with themes, It will be limited in this release so why not make your own theme?
-If you love what you've created, email it to me and I'll showcase it on the website.
 
 #### What's in the download?
 
