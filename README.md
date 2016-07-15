@@ -1,4 +1,3 @@
-#### [Legacy 4.0 is coming](https://blog.joexn.com/posts/something-new)
 # [Legacy Framework 3.4](https://legacy-framework.com) 
 ### modern design, lightweight framework
 ![development](https://img.shields.io/badge/ Stability: - Unstable -yellow.svg)
