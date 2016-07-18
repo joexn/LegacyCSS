@@ -1,3 +1,12 @@
+#### Please read
+Legacy 4.0 [alpha](https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha) has nearly been completed. I am going to be releasing the Legacy 4.0 public [beta](https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta) very soon.
+All development versions are released early to our Slack team for testing which then results in a public [RC](https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate). Email me [here](mailto:hi@joexn.com) and I'll send you an invite.
+If you have any questions about Legacy, Twitter is the best way to contact me.
+
+This week is going to be extreamly busy as I am switching to better servers, new domains and a 100% uptime CDN.
+
+
+
 # [Legacy Framework 3.4](https://legacy-framework.com) 
 ### modern design, lightweight framework
 ![development](https://img.shields.io/badge/ Stability: - Unstable -yellow.svg)
