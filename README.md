@@ -1,4 +1,6 @@
 #### Please read
+
+[![Join the chat at https://gitter.im/joexn/LegacyFramework](https://badges.gitter.im/joexn/LegacyFramework.svg)](https://gitter.im/joexn/LegacyFramework?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Legacy 4.0 [alpha](https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha) has nearly been completed. I am going to be releasing the Legacy 4.0 public [beta](https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta) very soon.
 All development versions are released early to our Slack team for testing which then results in a public [RC](https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate). Email me [here](mailto:hi@joexn.com?subject=Slack team) and I'll send you an invite.
 If you have any questions about Legacy, Twitter is the best way to contact me.
