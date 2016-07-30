@@ -1,0 +1,34 @@
+.group
+  position: relative
+  margin: 4rem 0
+input
+  font-size: 18px
+  font-family: $font
+  padding: 10px 10px 10px 5px
+  display: block
+  color: $accent
+  width: 50%
+  border: none
+  &:focus
+    outline: none
+label#legacy
+  color: $main
+  font-size: 18px
+  font-weight: 400
+  font-family: $font
+  position: absolute
+  pointer-events: none
+  left: 5px
+  top: 10px
+  transition: 0.2s ease all
+  -moz-transition: 0.2s ease all
+  -webkit-transition: 0.2s ease all
+  -o-transition: 0.2s ease all
+input
+  &:focus ~ label#legacy, &:valid ~ label#legacy
+    top: -20px
+    font-size: 14px
+    color: $main
+@media (max-width: $mobile-breakpoint)
+  input
+    width: 100%

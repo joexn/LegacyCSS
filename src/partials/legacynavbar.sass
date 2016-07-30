@@ -1,0 +1,186 @@
+.nav-right
+  float: right
+
+  ul
+    right: 0
+
+.nav-space
+  padding-bottom: 60px
+
+input[type=checkbox]
+  position: absolute
+  top: 0
+  right: 0
+  opacity: 0
+  padding: 0
+  margin: 0
+
+nav
+  font: $font
+  font-size: 0.9em
+  color: $nav-foreground-color
+  height: $nav-height
+  background-color: $nav-background-color
+  z-index: 999
+  width: 100%
+  display: inline-block
+
+  &.nav-fixed
+    position: fixed
+
+  ~ ul
+    margin: 0
+    padding: 0
+    list-style: none
+    display: inline-block
+
+  li
+    height: $nav-height
+    list-style: none
+    float: left
+    transition: $transition-time background-color ease-out
+    cursor: pointer
+    position: relative
+
+    &:not(.nav-label)
+      &:hover
+        background-color: $nav-background-color
+        color: #a4b4cb
+
+      &:hover ul
+        visibility: visible
+        opacity: 1
+        transition: opacity $transition-time ease-out
+        color: $nav-foreground-color
+        height: auto
+
+      &:hover ul li
+        height: 60px
+
+      ul
+        position: absolute
+        visibility: hidden
+        opacity: 0
+        transition: visibility 0s $transition-time, opacity $transition-time ease-out
+        height: 0
+        z-index: 999
+        background-color: $nav-background-color
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 4px 0 rgba(0, 0, 0, 0.048), 0 3px 1px -2px rgba(0, 0, 0, 0.12)
+
+        li
+          z-index: 999
+          float: none
+          margin-right: 0
+          position: relative
+          height: 0
+          transition: height $transition-time, background-color $transition-time ease-out
+
+          a
+            color: $nav-foreground-color
+
+            &:hover
+              color: #a4b4cb
+
+  .dropdown
+    margin-right: 16px
+    color: $nav-foreground-color
+
+  .dropdown:before
+    content: ""
+    font-family: FontAwesome
+    right: 12px
+    position: absolute
+
+  // Mobile
+  @media screen and (max-width: $mobile-breakpoint)
+    ul
+      width: 100%
+      display: block
+
+    li
+      width: 100%
+      background-color: darken($nav-background-color, 2%)
+      height: 0
+      transition: 0.3s
+      opacity: 0
+
+      &:not(.nav-label)
+        ul
+          position: static
+          background-color: $nav-background-color
+          font-size: 0
+
+          li
+            background-color: $nav-background-color
+            color: #a4b4cb
+            width: 50%
+            transition: $transition-time
+
+    #menuToggle:checked
+      ~ ul li
+        height: 60px
+        font-size: 16px
+        z-index: 999
+        visibility: visible
+        opacity: 1
+
+        &:not(.nav-label)
+          display: inline-block
+
+          &:hover
+            height: auto
+            background-color: darken($nav-background-color, 10%)
+            transition: $transition-time
+
+            li:hover
+              background-color: darken($nav-background-color, 10%)
+
+              a
+                color: #a4b4cb
+
+            a
+              color: $nav-foreground-color
+
+    .nav-label
+      width: auto
+      opacity: 1
+      height: 60px
+
+    a
+      color: $primary
+    // End Mobile
+
+
+  .nav-label
+    background-color: $nav-logo-background-color
+
+  a
+    display: block
+    padding: 0 12px
+    text-decoration: none
+    white-space: nowrap
+    line-height: $nav-height
+    color: $nav-foreground-color
+    font-weight: 400
+
+    &:hover
+      color: #a4b4cb
+
+      &.nav-label
+        color: $nav-foreground-color
+
+  label, input[type=checkbox]
+    position: absolute
+    right: 0
+    top: 0
+    width: 60px
+    height: 60px
+    visibility: hidden
+    text-align: center
+    transition: $transition-time background-color ease-out
+    cursor: pointer
+    z-index: 999
+    line-height: 60px
+
+    @media screen and (max-width: $mobile-breakpoint)
+      visibility: visible
