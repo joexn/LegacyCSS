@@ -41,7 +41,7 @@ To compile the SASS source to a minified file, use:
 
 <br /><br /><br />
 #### Want us to host it?
-To use Legacy on your site without downloading it, include this code in your <head> tags:
+To use Legacy on your site without downloading it, include this code in your head tags:
 
 ```
 <link href="https://cdn.joexn.io/legacy.css" rel="stylesheet">
