@@ -1,7 +1,8 @@
-# Legacy Framework 4.0
-### modern design, lightweight framework
-
-<br /><br /><br />
+<br><br>
+<h1 align="center"> Legacy Framework 4.0 </h1>
+<h3 align="center"> modern design, lightweight framework </h3>
+<br><br>
+<br />
 #### What's in the download?
 
 If you want to download Legacy, you don't get the dev kit (SASS files/compilers)
