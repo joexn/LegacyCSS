@@ -66,5 +66,7 @@ All the people listed below have helped shape Legacy into the framework it is to
 <small>(you will only be listed here if you have helped more than once with Legacy's development)</small>
 
 [/nloveladyallen](/nloveladyallen)
+
 [/georgejenkins](/georgejenkins)
+
 [/Haroenv](/Haroenv)
