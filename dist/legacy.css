@@ -362,10 +362,10 @@ input {
   font-size: 18px;
   font-family: "Helvetica Neue", "Roboto", sans-serif;
   padding: 10px 10px 10px 5px;
-  display: block;
   color: #91B9C5;
   width: 50%;
-  border: none; }
+  border: 0;
+  border-bottom: 2px solid rgba(147, 186, 198, 0.3); }
   input:focus {
     outline: none; }
 
@@ -373,15 +373,7 @@ label#legacy {
   color: #444F5F;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Helvetica Neue", "Roboto", sans-serif;
-  position: absolute;
-  pointer-events: none;
-  left: 5px;
-  top: 10px;
-  transition: 0.2s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all;
-  -o-transition: 0.2s ease all; }
+  font-family: "Helvetica Neue", "Roboto", sans-serif; }
 
 input:focus ~ label#legacy, input:valid ~ label#legacy {
   top: -20px;
