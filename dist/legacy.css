@@ -534,56 +534,6 @@ nav {
     font-family: FontAwesome;
     right: 12px;
     position: absolute; }
-  nav #menu-button {
-    display: block;
-    padding: 17px;
-    color: #FFF;
-    cursor: pointer;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 700;
-    /* &.menu-opened
-     * &:after
-     *   top: 23px
-     *   border: 0
-     *   height: 2px
-     *   width: 15px
-     *   background: $nav-foreground-color
-     *   -webkit-transform: rotate(45deg)
-     *   -moz-transform: rotate(45deg)
-     *   -ms-transform: rotate(45deg)
-     *   -o-transform: rotate(45deg)
-     *   transform: rotate(45deg)
-     * &:before
-     *   top: 23px
-     *   background: $nav-foreground-color
-     *   width: 15px
-     *   -webkit-transform: rotate(-45deg)
-     *   -moz-transform: rotate(-45deg)
-     *   -ms-transform: rotate(-45deg)
-     *   -o-transform: rotate(-45deg)
-     *   transform: rotate(-45deg) */ }
-    nav #menu-button:after {
-      position: absolute;
-      top: 22px;
-      right: 17px;
-      display: block;
-      height: 4px;
-      width: 20px;
-      border-top: 2px solid #7B8EAA;
-      border-bottom: 2px solid #7B8EAA;
-      content: "";
-      box-sizing: content-box; }
-    nav #menu-button:before {
-      position: absolute;
-      top: 16px;
-      right: 17px;
-      display: block;
-      height: 2px;
-      width: 20px;
-      background: #7B8EAA;
-      content: "";
-      box-sizing: content-box; }
   @media screen and (max-width: 550px) {
     nav ul {
       width: 100%;
@@ -656,6 +606,47 @@ nav {
     @media screen and (max-width: 550px) {
       nav label, nav input[type=checkbox] {
         visibility: visible; } }
+
+.menu-icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 28px 20px;
+  user-select: none; }
+  .menu-icon .navicon {
+    background: #7B8EAA;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background 0.2s ease-out;
+    width: 18px; }
+    .menu-icon .navicon:before, .menu-icon .navicon:after {
+      background: #7B8EAA;
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all 0.2s ease-out;
+      width: 100%; }
+    .menu-icon .navicon:before {
+      top: 5px; }
+    .menu-icon .navicon:after {
+      top: -5px; }
+
+.menu-btn {
+  display: none; }
+  .menu-btn:checked ~ .menu {
+    max-height: 240px; }
+  .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent; }
+    .menu-btn:checked ~ .menu-icon .navicon:before {
+      transform: rotate(-45deg); }
+    .menu-btn:checked ~ .menu-icon .navicon:after {
+      transform: rotate(45deg); }
+  .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before, .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0; }
 
 html {
   font-size: 62.5%; }
