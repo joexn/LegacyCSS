@@ -65,8 +65,8 @@ To use Legacy on your site without downloading it, include this code in your hea
 All the people listed below have helped shape Legacy into the framework it is today.
 <small>(you will only be listed here if you have helped more than once with Legacy's development)</small>
 
-[/nloveladyallen](/nloveladyallen)
+[/nloveladyallen](https://github.com/nloveladyallen)
 
-[/georgejenkins](/georgejenkins)
+[/georgejenkins](https://github.com/georgejenkins)
 
-[/Haroenv](/Haroenv)
+[/Haroenv](https://github.com/Haroenv)
