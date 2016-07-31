@@ -555,7 +555,6 @@ nav {
           transition: 0.3s; }
     nav #menu-btn:checked ~ ul li {
       height: 60px;
-      font-size: 16px;
       z-index: 999;
       visibility: visible;
       opacity: 1; }
@@ -613,7 +612,8 @@ nav {
   top: 0px;
   cursor: pointer;
   display: inline-block;
-  padding: 28px 20px;
+  padding: 2.8rem 0 0 0;
+  margin-right: -2rem;
   user-select: none; }
   .menu-icon .navicon {
     background: #7B8EAA;
