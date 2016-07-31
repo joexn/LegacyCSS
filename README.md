@@ -41,7 +41,11 @@ To install the dependencies required by the build suite, you will need to naviga
     
 
 #### Run 'gulp' to start the build suite.
-Once this process has successfully completed, you will be able to run the following command. 
+If you haven't installed gulp before, you will need to install the gulp-cli tool. If you already have gulp-cli installed (you can verify with 'gulp -v' and check for 'CLI version'), you can safely skip this command.
+
+    npm install --global gulp-cli
+    
+You will then be able to run the following command. 
 
     gulp
     
