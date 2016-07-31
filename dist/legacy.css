@@ -546,7 +546,7 @@ nav {
       nav li:not(.nav-label) ul {
         position: static;
         background-color: #444F5F;
-        font-size: 0; }
+        font-size: 0.9em; }
         nav li:not(.nav-label) ul li {
           background-color: #444F5F;
           color: #a4b4cb;
