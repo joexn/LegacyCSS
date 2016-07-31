@@ -510,7 +510,6 @@ nav {
       position: absolute;
       visibility: hidden;
       opacity: 0;
-      transition: visibility 0s 0.3s, opacity 0.3s ease-out;
       height: 0;
       z-index: 999;
       background-color: #444F5F;
