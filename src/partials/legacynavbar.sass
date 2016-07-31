@@ -99,7 +99,56 @@ nav
     right: 12px
     position: absolute
 
-
+  #menu-button
+    display: block
+    padding: 17px
+    color: #FFF
+    cursor: pointer
+    font-size: 12px
+    text-transform: uppercase
+    font-weight: 700
+    &:after
+      position: absolute
+      top: 22px
+      right: 17px
+      display: block
+      height: 4px
+      width: 20px
+      border-top: 2px solid $nav-foreground-color
+      border-bottom: 2px solid $nav-foreground-color
+      content: ''
+      box-sizing: content-box
+    &:before
+      position: absolute
+      top: 16px
+      right: 17px
+      display: block
+      height: 2px
+      width: 20px
+      background: $nav-foreground-color
+      content: ''
+      box-sizing: content-box
+    /* &.menu-opened
+      &:after
+        top: 23px
+        border: 0
+        height: 2px
+        width: 15px
+        background: $nav-foreground-color
+        -webkit-transform: rotate(45deg)
+        -moz-transform: rotate(45deg)
+        -ms-transform: rotate(45deg)
+        -o-transform: rotate(45deg)
+        transform: rotate(45deg)
+      &:before
+        top: 23px
+        background: $nav-foreground-color
+        width: 15px
+        -webkit-transform: rotate(-45deg)
+        -moz-transform: rotate(-45deg)
+        -ms-transform: rotate(-45deg)
+        -o-transform: rotate(-45deg)
+        transform: rotate(-45deg) */
 
 
 
