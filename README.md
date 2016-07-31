@@ -3,6 +3,7 @@
 <h3 align="center"> modern design, lightweight framework </h3>
 <br><br>
 <br />
+
 #### What's in the download?
 
 If you want to download Legacy, you don't get the dev kit (SASS files/compilers)
@@ -19,28 +20,35 @@ Legacy/
 
 ```
 
-<br /><br /><br />
-#### How to install, compress and minify.
 
-I use [Atom](https://atom.io) to code SASS, then a ```.command``` file to automatically compile and minify the files for me. <br /><br />
- Prefer a more traditional method? Use the instructions below.
+<br>
 
-Install SASS using if you haven't already:
+## How To Build Legacy From Source
 
-    gem install sass
+Included in the repo is a build system to help you build and modify Legacy. 
 
-(Depending on your setup, this may or may not require `sudo`.)
+#### Ensure you have nodejs installed.
+To utilise the project build suite, you will need to have nodejs installed on your system. You can verify you have node installed by using the command:
 
-To compile the SASS source code to CSS, use:
+    node -v
 
-    sass legacy-core.sass legacy.css
+If you see the the version number, you are ready to proceed. If not, you will have to ensure you both have node installed and it is configured in your system's path. 
 
-To compile the SASS source to a minified file, use:
+#### Run 'npm install' to resolve dependencies.
+To install the dependencies required by the build suite, you will need to navigate to the folder containing the 'package.json' file. By running the following command, you will invoke the node package manager (npm) to download the dependencies described in the package.json file. 
 
-    sass -t compressed legacy.sass legacy.min.css
+    npm install
+    
 
+#### Run 'gulp' to start the build suite.
+Once this process has successfully completed, you will be able to run the following command. 
 
-<br /><br /><br />
+    gulp
+    
+Gulp is a modern streaming build system that will compile the Legacy sass files into workable css. In addition, it will monitor changes to the source and automatically reprocess the source - so changes are shown immediately. Also included in the build suite is browsersync. Browsersync is a tool that will automatically inject any changes into your browser - providing almost instant feedback for any changes.  
+
+##
+
 #### Want us to host it?
 To use Legacy on your site without downloading it, include this code in your head tags:
 
