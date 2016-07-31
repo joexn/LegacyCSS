@@ -43,11 +43,11 @@ Install SASS using if you haven't already:
 
 To compile the SASS source code to CSS, use:
 
-    sass legacy-core.sass legacy.css
+    sass src/legacy.sass dist/legacy.css
 
 To compile the SASS source to a minified file, use:
 
-    sass -t compressed legacy.sass legacy.min.css
+    sass -t compressed src/legacy.sass dist/legacy.min.css
 
 #### Want us to host it?
 
