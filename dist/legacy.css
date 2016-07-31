@@ -553,23 +553,23 @@ nav {
           color: #a4b4cb;
           width: 50%;
           transition: 0.3s; }
-    nav #menuToggle:checked ~ ul li {
+    nav #menu-btn:checked ~ ul li {
       height: 60px;
       font-size: 16px;
       z-index: 999;
       visibility: visible;
       opacity: 1; }
-      nav #menuToggle:checked ~ ul li:not(.nav-label) {
+      nav #menu-btn:checked ~ ul li:not(.nav-label) {
         display: inline-block; }
-        nav #menuToggle:checked ~ ul li:not(.nav-label):hover {
+        nav #menu-btn:checked ~ ul li:not(.nav-label):hover {
           height: auto;
           background-color: #2f3641;
           transition: 0.3s; }
-          nav #menuToggle:checked ~ ul li:not(.nav-label):hover li:hover {
+          nav #menu-btn:checked ~ ul li:not(.nav-label):hover li:hover {
             background-color: #2f3641; }
-            nav #menuToggle:checked ~ ul li:not(.nav-label):hover li:hover a {
+            nav #menu-btn:checked ~ ul li:not(.nav-label):hover li:hover a {
               color: #a4b4cb; }
-          nav #menuToggle:checked ~ ul li:not(.nav-label):hover a {
+          nav #menu-btn:checked ~ ul li:not(.nav-label):hover a {
             color: #7B8EAA; }
     nav .nav-label {
       width: auto;
