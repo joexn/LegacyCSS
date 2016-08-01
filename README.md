@@ -1,7 +1,9 @@
-<h1 align="center"> Legacy Framework 4.0 </h1>
-<h3 align="center"> modern design, lightweight framework </h3>
+<br><br>
 
-<br><br><br>
+<h3 align="center"> Legacy Framework 4.0 </h1>
+<h5 align="center"> modern design, lightweight framework </h3>
+
+<br><br><br><br>
 
 #### What's in the download?
 
