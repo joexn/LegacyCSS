@@ -517,14 +517,12 @@ nav {
           nav li:not(.nav-label) ul li a:hover {
             color: #a4b4cb; }
   nav .dropdown {
-    margin-right: 16px;
+    margin-right: 19px;
     color: #7B8EAA; }
   nav .dropdown:before {
-    content: "^";
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-    margin-top: -2px;
-    right: 12px;
+    content: "\fe40";
+    margin-top: 5px;
+    right: 10px;
     position: absolute; }
   @media screen and (max-width: 550px) {
     nav ul {
