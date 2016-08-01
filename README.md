@@ -43,7 +43,7 @@ To use Legacy on your site without downloading it, include this code in your hea
 
 
 
-#### How To Build Legacy From Source
+### How To Build Legacy From Source
 
 Included in the repo is a build system to help you build and modify Legacy. 
 
