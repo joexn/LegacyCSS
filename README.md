@@ -33,6 +33,7 @@ LegacyFramework
 
 <br><br><br>
 
+
 #### Want us to host it?
 
 To use Legacy on your site without downloading it, include this code in your head tags:
@@ -45,38 +46,39 @@ To use Legacy on your site without downloading it, include this code in your hea
 
 ### How To Build Legacy From Source
 
-Included in the repo is a build system to help you build and modify Legacy. 
+Included in the repo is a build system to help you build and modify Legacy.
 
 #### Ensure you have nodejs installed.
 To utilise the project build suite, you will need to have nodejs installed on your system. You can verify you have node installed by using the command:
 
     node -v
 
-If you see the the version number, you are ready to proceed. If not, you will have to ensure you both have node installed and it is configured in your system's path. 
+If you see the the version number, you are ready to proceed. If not, you will have to ensure you both have node installed and it is configured in your system's path.
 
 #### Run 'npm install' to resolve dependencies.
-To install the dependencies required by the build suite, you will need to navigate to the folder containing the 'package.json' file. By running the following command, you will invoke the node package manager (npm) to download the dependencies described in the package.json file. 
+To install the dependencies required by the build suite, you will need to navigate to the folder containing the 'package.json' file. By running the following command, you will invoke the node package manager (npm) to download the dependencies described in the package.json file.
 
     npm install
-    
+
 
 #### Run 'gulp' to start the build suite.
-If you haven't installed gulp before, you will need to install the gulp-cli tool. If you already have gulp-cli installed (you can verify with 'gulp -v' and check for 'CLI version'), you can safely skip this command.
-
     npm install --global gulp-cli
-    
-You will then be able to run the following command. 
+
+You will then be able to run the following command.
 
     gulp
-    
-Gulp is a modern streaming build system that will compile the Legacy sass files into workable css. In addition, it will monitor changes to the source and automatically reprocess the source - so changes are shown immediately. Also included in the build suite is browsersync. Browsersync is a tool that will automatically inject any changes into your browser - providing almost instant feedback for any changes.  
+
+Gulp is a modern streaming build system that will compile the Legacy sass files into workable css. In addition, it will monitor changes to the source and automatically reprocess the source - so changes are shown immediately. Also included in the build suite is browsersync. Browsersync is a tool that will automatically inject any changes into your browser - providing almost instant feedback for any changes.
+
+##### Using BrowserSync for development
+Also included in the build suite is browsersync. Browsersync is a tool that will automatically inject changes to Legacy into any open and connected browser, providing instant visual feedback for any changes. To run gulp with browsersync, you can run the following command:
+
+    gulp serve
 
 
 <br><br><br>
 
 <center>[designed and developed by joexn :ok_hand:](https://joexn.com)</center>
-
-- - -
 
 <br><br><br>
 
