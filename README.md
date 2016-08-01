@@ -33,33 +33,44 @@ LegacyFramework
 
 <br><br><br>
 
-#### How to install, compress and minify.
-
-I use [Atom](https://atom.io) to code SASS, then a script to automatically compile and minify the files for me.
-
-Prefer a more traditional method? Use the instructions below.
-
-Install SASS using if you haven't already:
-
-    gem install sass
-
-(Depending on your setup, this may or may not require `sudo`.)
-
-To compile the SASS source code to CSS, use:
-
-    sass src/legacy.sass dist/legacy.css
-
-To compile the SASS source to a minified file, use:
-
-    sass -t compressed src/legacy.sass dist/legacy.min.css
-
-<br><br><br>
-
 #### Want us to host it?
 
 To use Legacy on your site without downloading it, include this code in your head tags:
 
     <link href="https://cdn.joexn.io/legacy.css" rel="stylesheet">
+
+<br><br><br>
+
+
+
+## How To Build Legacy From Source
+
+Included in the repo is a build system to help you build and modify Legacy. 
+
+#### Ensure you have nodejs installed.
+To utilise the project build suite, you will need to have nodejs installed on your system. You can verify you have node installed by using the command:
+
+    node -v
+
+If you see the the version number, you are ready to proceed. If not, you will have to ensure you both have node installed and it is configured in your system's path. 
+
+#### Run 'npm install' to resolve dependencies.
+To install the dependencies required by the build suite, you will need to navigate to the folder containing the 'package.json' file. By running the following command, you will invoke the node package manager (npm) to download the dependencies described in the package.json file. 
+
+    npm install
+    
+
+#### Run 'gulp' to start the build suite.
+If you haven't installed gulp before, you will need to install the gulp-cli tool. If you already have gulp-cli installed (you can verify with 'gulp -v' and check for 'CLI version'), you can safely skip this command.
+
+    npm install --global gulp-cli
+    
+You will then be able to run the following command. 
+
+    gulp
+    
+Gulp is a modern streaming build system that will compile the Legacy sass files into workable css. In addition, it will monitor changes to the source and automatically reprocess the source - so changes are shown immediately. Also included in the build suite is browsersync. Browsersync is a tool that will automatically inject any changes into your browser - providing almost instant feedback for any changes.  
+
 
 <br><br><br>
 
