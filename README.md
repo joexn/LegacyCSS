@@ -1,6 +1,8 @@
 <h1 align="center"> Legacy Framework 4.0 </h1>
 <h3 align="center"> modern design, lightweight framework </h3>
 
+<br><br><br>
+
 #### What's in the download?
 
 The download contains just what's in the repo:
@@ -29,6 +31,8 @@ LegacyFramework
         └── legacyutilities.sass
 ```
 
+<br><br><br>
+
 #### How to install, compress and minify.
 
 I use [Atom](https://atom.io) to code SASS, then a script to automatically compile and minify the files for me.
@@ -49,15 +53,21 @@ To compile the SASS source to a minified file, use:
 
     sass -t compressed src/legacy.sass dist/legacy.min.css
 
+<br><br><br>
+
 #### Want us to host it?
 
 To use Legacy on your site without downloading it, include this code in your head tags:
 
     <link href="https://cdn.joexn.io/legacy.css" rel="stylesheet">
 
+<br><br><br>
+
 <center>[designed and developed by joexn :ok_hand:](https://joexn.com)</center>
 
 - - -
+
+<br><br><br>
 
 ### check out these guys
 
