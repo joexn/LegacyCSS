@@ -1,5 +1,3 @@
-@charset "UTF-8";
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500);
 .container {
   position: relative;
@@ -522,8 +520,10 @@ nav {
     margin-right: 16px;
     color: #7B8EAA; }
   nav .dropdown:before {
-    content: "";
-    font-family: FontAwesome;
+    content: "^";
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    margin-top: -2px;
     right: 12px;
     position: absolute; }
   @media screen and (max-width: 550px) {
