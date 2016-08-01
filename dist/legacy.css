@@ -726,7 +726,6 @@ hr {
   padding: 20px;
   background-color: #444F5F;
   color: white;
-  margin-bottom: 15px;
   font-weight: 400;
   -webkit-transition: opacity 400ms ease-in;
   -moz-transition: opacity 400ms ease-in;
@@ -799,7 +798,7 @@ hr {
   color: #FFF;
   background-color: #ED5565; }
 
-.hero.primary h1, .hero.primary h2, .hero.primary h3, .hero.primary h4, .hero.primary h5, .hero.primary h6, .hero.primary p, .hero.success h1, .hero.success h2, .hero.success h3, .hero.success h4, .hero.success h5, .hero.success h6, .hero.success p, .hero.warning h1, .hero.warning h2, .hero.warning h3, .hero.warning h4, .hero.warning h5, .hero.warning h6, .hero.warning p, .hero.alert h1, .hero.alert h2, .hero.alert h3, .hero.alert h4, .hero.alert h5, .hero.alert h6, .hero.alert p {
+.hero.primary h1, .hero.primary h2, .hero.primary h3, .hero.primary h4, .hero.primary h5, .hero.primary h6, .hero.primary p, .hero.success h1, .hero.success h2, .hero.success h3, .hero.success h4, .hero.success h5, .hero.success h6, .hero.success p, .hero.warning h1, .hero.warning h2, .hero.warning h3, .hero.warning h4, .hero.warning h5, .hero.warning h6, .hero.warning p, .hero.alert h1, .hero.alert h2, .hero.alert h3, .hero.alert h4, .hero.alert h5, .hero.alert h6, .hero.alert p, .hero.default h1, .hero.default h2, .hero.default h3, .hero.default h4, .hero.default h5, .hero.default h6, .hero.default p {
   color: #FFF; }
 
 .modal {
