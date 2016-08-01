@@ -1,29 +1,49 @@
-<br><br>
 <h1 align="center"> Legacy Framework 4.0 </h1>
 <h3 align="center"> modern design, lightweight framework </h3>
-<br><br>
-<br />
+
+<br><br><br>
 
 #### What's in the download?
 
-If you want to download Legacy, you don't get the dev kit (SASS files/compilers)
-<br />
-If you'd like to get all of this, download the repo zip instead.
+The download contains just what's in the repo:
 
 ```
-
-Legacy/
-├── Hello.html
+LegacyFramework
 ├── LICENSE
-├── legacy.min.css
-└── legacy.css
-
+├── README.md
+├── dist
+│   ├── legacy.css
+│   └── legacy.min.css
+├── index.html
+└── src
+    ├── legacy.sass
+    └── partials
+        ├── legacybuttons.sass
+        ├── legacycolors.sass
+        ├── legacyforms.sass
+        ├── legacygrid.sass
+        ├── legacynavbar.sass
+        ├── legacyother.sass
+        ├── legacyreset.sass
+        ├── legacysetup.sass
+        ├── legacytables.sass
+        ├── legacytypography.sass
+        └── legacyutilities.sass
 ```
 
+<br><br><br>
 
-<br>
+#### Want us to host it?
 
-## How To Build Legacy From Source
+To use Legacy on your site without downloading it, include this code in your head tags:
+
+    <link href="https://cdn.joexn.io/legacy.css" rel="stylesheet">
+
+<br><br><br>
+
+
+
+### How To Build Legacy From Source
 
 Included in the repo is a build system to help you build and modify Legacy. 
 
@@ -49,28 +69,30 @@ You will then be able to run the following command.
 
     gulp
     
-Gulp is a modern streaming build system that will compile the Legacy sass files into workable css. In addition, it will monitor changes to the source and automatically reprocess the source - so changes are shown immediately. Also included in the build suite is browsersync. Browsersync is a tool that will automatically inject any changes into your browser - providing almost instant feedback for any changes.  
+Gulp is a modern streaming build system that will compile the Legacy sass files into workable css. In addition, it will monitor changes and automatically reprocess the source - so changes are reflected in the dist folder immediately. 
 
-##
+##### Using BrowserSync for development
+Also included in the build suite is browsersync. Browsersync is a tool that will automatically inject changes to Legacy into any open and connected browser, providing instant visual feedback for any changes. To run gulp with browsersync, you can run the following command:
 
-#### Want us to host it?
-To use Legacy on your site without downloading it, include this code in your head tags:
+    gulp serve 
 
-```
-<link href="https://cdn.joexn.io/legacy.css" rel="stylesheet">
-```
 
-<br /><br /><br />
+<br><br><br>
 
 <center>[designed and developed by joexn :ok_hand:](https://joexn.com)</center>
 
-<hr>
+- - -
 
-  <h3>check out these guys</h3>
-    <p>All the people listed below have helped shape Legacy into the framework it is today.<br />
-    <small>(you will only be listed here if you have helped more than once with Legacy's development)</small>
-    </p>
-    <a href="https://github.com/nloveladyallen">/nloveladyallen</a><br>
-    <a href="https://github.com/georgejenkins">/georgejenkins</a><br>
-    <a href="https://github.com/runofthemill">/runofthemill</a><br>
-    <a href="https://github.com/nishad">/nishad</a><br>
+<br><br><br>
+
+### check out these guys
+
+
+All the people listed below have helped shape Legacy into the framework it is today.
+<small>(you will only be listed here if you have helped more than once with Legacy's development)</small>
+
+[/nloveladyallen](https://github.com/nloveladyallen)
+
+[/georgejenkins](https://github.com/georgejenkins)
+
+[/Haroenv](https://github.com/Haroenv)
