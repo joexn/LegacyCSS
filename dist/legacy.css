@@ -382,7 +382,7 @@ input:focus ~ label#legacy, input:valid ~ label#legacy {
 
 @media (max-width: 550px) {
   input {
-    width: 100%; } }
+    width: 90%; } }
 .utility.full-width {
   width: 100%;
   box-sizing: border-box; }
