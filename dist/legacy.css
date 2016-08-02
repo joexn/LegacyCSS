@@ -508,6 +508,7 @@ nav {
         -ms-user-select: none;
             user-select: none; }
     nav .menu-icon .navicon {
+      margin-left: 2rem;
       background: #7B8EAA;
       display: block;
       height: 2px;
@@ -580,9 +581,7 @@ nav {
         float: none;
         margin-right: 0;
         position: relative;
-        height: 0;
-        -webkit-transition: height 0.3s, background-color 0.3s ease-out;
-        transition: height 0.3s, background-color 0.3s ease-out; }
+        height: 0; }
         nav li:not(.nav-label) ul li a {
           color: #7B8EAA; }
           nav li:not(.nav-label) ul li a:hover {
@@ -603,8 +602,6 @@ nav {
       width: 100%;
       background-color: #404a59;
       height: 0;
-      transition: 0.3s;
-      -webkit-transition: 0.3s;
       opacity: 0; }
       nav li:not(.nav-label) ul {
         position: static;
@@ -613,9 +610,7 @@ nav {
         nav li:not(.nav-label) ul li {
           background-color: #444F5F;
           color: #a4b4cb;
-          width: 49.5%;
-          transition: 0.3s;
-          -webkit-transition: 0.3s; }
+          width: 49.5%; }
     nav #menu-btn:checked ~ ul li {
       height: 60px;
       z-index: 999;
@@ -625,9 +620,7 @@ nav {
         display: inline-block; }
         nav #menu-btn:checked ~ ul li:not(.nav-label):hover {
           height: auto;
-          background-color: #2f3641;
-          transition: 0.3s;
-          -webkit-transition: 0.3s; }
+          background-color: #2f3641; }
           nav #menu-btn:checked ~ ul li:not(.nav-label):hover li:hover {
             background-color: #2f3641; }
             nav #menu-btn:checked ~ ul li:not(.nav-label):hover li:hover a {
