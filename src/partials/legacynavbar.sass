@@ -1,18 +1,9 @@
-// Added comments for better understanding of each class.
-
-// Makes navbar items stick to the right
 .nav-right
   float: right
-
-  // No idea what this does.
   ul
     right: 0
-
-// If using nav-fixed then this adds padding so page doesn't look out of place.
 .nav-space
   padding-bottom: 60px
-
-// Hides menu button checkbox (NEEDS IMPROVEMENT)
 input[type=checkbox]
   position: absolute
   top: 0
@@ -20,8 +11,6 @@ input[type=checkbox]
   opacity: 0
   padding: 0
   margin: 0
-
-// Main styles for the navbar
 nav
   font-family: $font
   font-size: 0.9em
@@ -72,18 +61,14 @@ nav
         &:not(.steps) .navicon
           &:before, &:after
             top: 0
-  // Makes the navbar fixed to the top of the page
   &.nav-fixed
     position: fixed
-
-  // No idea what this does either.
   ~ ul
     margin: 0
     padding: 0
     list-style: none
     display: inline-block
 
-  // Main items in navbar.
   li
     height: $nav-height
     list-style: none
@@ -92,19 +77,15 @@ nav
     cursor: pointer
     position: relative
 
-    // All dropdown items that isn't the navbar label.
     &:not(.nav-label)
-      // Show's the dropdown menu on hover.
       &:hover ul
         visibility: visible
         opacity: 1
         transition: opacity $transition-time ease-out
         color: $nav-foreground-color
         height: auto
-      // Set's height for each item in dropdown menu.
       &:hover ul li
         height: 60px
-      // Dropdown menu
       ul
         position: absolute
         visibility: hidden
@@ -114,7 +95,6 @@ nav
         min-width: 100%
         background-color: $nav-background-color
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 4px 0 rgba(0, 0, 0, 0.048), 0 3px 1px -2px rgba(0, 0, 0, 0.12)
-        // Items in dropdown menu
         li
           z-index: 999
           float: none
@@ -122,16 +102,13 @@ nav
           position: relative
           height: 0
           transition: height $transition-time, background-color $transition-time ease-out
-          // Text in dropdown menu
           a
             color: $nav-foreground-color
             &:hover
               color: #a4b4cb
-
   .dropdown
     margin-right: 19px
     color: $nav-foreground-color
-
   .dropdown:before
     content: "\fe40"
     margin-top: 5px
@@ -201,11 +178,9 @@ nav
 
 
 
-  // Navbar label
   .nav-label
     background-color: $nav-logo-background-color
 
-  // Items
   a
     display: block
     padding: 0 12px
