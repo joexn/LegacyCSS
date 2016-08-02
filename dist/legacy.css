@@ -229,7 +229,7 @@ nav {
         nav li:not(.nav-label) ul li {
           background-color: #444F5F;
           color: #a4b4cb;
-          width: 50%;
+          width: 49%;
           -webkit-transition: 0.3s;
           transition: 0.3s; }
     nav #menu-btn:checked ~ ul li {
