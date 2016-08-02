@@ -459,6 +459,10 @@ input:focus ~ label#legacy, input:valid ~ label#legacy {
   .utility.hide-on-tablets {
     display: none; } }
 
+@media (min-width: 1185px) {
+  .utility.hide-on-desktop {
+    display: none; } }
+
 .nav-right {
   float: right; }
   .nav-right ul {
