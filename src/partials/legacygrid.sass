@@ -1,0 +1,98 @@
+.container
+  position: relative
+  width: 100%
+  max-width: $max-width-container
+  margin: 0 auto
+  padding: 0 20px
+  box-sizing: border-box
+.column, .columns
+  width: 100%
+  float: left
+  box-sizing: border-box
+.column, .columns
+  margin-left: 4%
+.column:first-child, .columns:first-child
+  margin-left: 0
+.one
+  &.column, &.columns
+    width: ((1 * 26% - 12) / 3)
+.two.columns
+  width: ((2 * 26% - 12) / 3)
+.three.columns
+  width: ((3 * 26% - 12) / 3)
+.four.columns
+  width: ((4 * 26% - 12) / 3)
+.five.columns
+  width: ((5 * 26% - 12) / 3)
+.six.columns
+  width: ((6 * 26% - 12) / 3)
+.seven.columns
+  width: ((7 * 26% - 12) / 3)
+.eight.columns
+  width: ((8 * 26% - 12) / 3)
+.nine.columns
+  width: ((9 * 26% - 12) / 3)
+.ten.columns
+  width: ((10 * 26% - 12) / 3)
+.eleven.columns
+  width: ((11 * 26% - 12) / 3)
+.twelve.columns
+  width: ((12 * 26% - 12) / 3)
+  margin-left: 0
+.one-third.column
+  width: ((1 * 104% - 12) / 3)
+.two-thirds.column
+  width: ((2 * 104% - 12) / 3)
+.one-half.column
+  width: ((1 * 156% - 12) / 3)
+.offset-by-one
+  &.column, &.columns
+    margin-left: (1 * 26% / 3)
+.offset-by-two
+  &.column, &.columns
+    margin-left: (2 * 26% / 3)
+.offset-by-three
+  &.column, &.columns
+    margin-left: (3 * 26% / 3)
+.offset-by-four
+  &.column, &.columns
+    margin-left: (4 * 26% / 3)
+.offset-by-five
+  &.column, &.columns
+    margin-left: (5 * 26% / 3)
+.offset-by-six
+  &.column, &.columns
+    margin-left: (6 * 26% / 3)
+.offset-by-seven
+  &.column, &.columns
+    margin-left: (7 * 26% / 3)
+.offset-by-eight
+  &.column, &.columns
+    margin-left: (8 * 26% / 3)
+.offset-by-nine
+  &.column, &.columns
+    margin-left: (9 * 26% / 3)
+.offset-by-ten
+  &.column, &.columns
+    margin-left: (10 * 26% / 3)
+.offset-by-eleven
+  &.column, &.columns
+    margin-left: (11 * 26% / 3)
+.offset-by-one-third
+  &.column, &.columns
+    margin-left: (1 * 104% / 3)
+.offset-by-two-thirds
+  &.column, &.columns
+    margin-left: (2 * 104% / 3)
+.offset-by-one-half
+  &.column, &.columns
+    margin-left: (1 * 156% / 3)
+.container:after, .row:after, .u-cf
+  content: ""
+  display: table
+  clear: both
+@media (min-width: $mobile-breakpoint)
+  .container
+    width: 80%
+  article
+    padding: 3rem 0

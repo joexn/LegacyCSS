@@ -1,0 +1,25 @@
+{
+  "name": "legacyframework",
+  "version": "4.0.0",
+  "description": "Legacy is a modern, lightweight CSS framework.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joexn/LegacyFramework.git"
+  },
+  "author": "joexn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joexn/LegacyFramework/issues"
+  },
+  "homepage": "https://github.com/joexn/LegacyFramework#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  }
+}

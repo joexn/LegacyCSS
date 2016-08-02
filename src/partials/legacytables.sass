@@ -1,0 +1,41 @@
+.table
+  margin: 1em 0
+  font-family: $font
+  min-width: 100%
+  background-color: $main
+  color: #fff
+  overflow: hidden
+  tr
+    border-top: 0
+    border-bottom: 0
+  th
+    display: none
+  td
+    display: block
+    &:first-child
+      padding-top: .5em
+    &:last-child
+      padding-bottom: .5em
+    &:before
+      content: attr(data-th) ": "
+      font-weight: bold
+      width: 6.5em
+      display: inline-block
+  th, td
+    border-bottom: none
+    text-align: left
+    margin: .5em 1em
+@media (min-width: $mobile-breakpoint)
+  .table td:before
+    display: none
+  .table
+    th, td
+      display: table-cell
+      padding: .25em .5em
+    th:first-child, td:first-child
+      padding-left: 0
+    th:last-child, td:last-child
+      padding-right: 0
+  .table
+    th, td
+      padding: 1em !important

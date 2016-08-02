@@ -1,0 +1,95 @@
+// This is the utilities file, it contains some usefull classes for Legacy.
+
+.utility
+  &.full-width
+    width: 100%
+    box-sizing: border-box
+  &.right
+    float: right
+  &.left
+    float: left
+  &.space-2
+    font-family: $font
+    color: $accent
+    padding-top: 2rem
+    padding-bottom: 2rem
+    text-align: center
+    a
+      color: $accent
+      border-bottom: 1px solid $accent
+  &.space-5
+    font-family: $font
+    color: $accent
+    padding-top: 5rem
+    padding-bottom: 5rem
+    text-align: center
+    a
+      color: $accent
+      border-bottom: 1px solid $accent
+  &.space-10
+    font-family: $font
+    color: $accent
+    padding-top: 10rem
+    padding-bottom: 10rem
+    text-align: center
+    a
+      color: $accent
+      border-bottom: 1px solid $accent
+  &.center
+    margin: 0 auto
+    text-align: center
+  &.hide
+    display: none
+  &.show-on-print
+    display: none
+
+  &.hide-on-print
+    display: block
+
+  &.page-break
+    display: none
+
+@media print
+  .utility
+    &.show-on-print
+      display: block
+
+    &.hide-on-print
+      display: none
+
+    &.page-break
+      display: block
+      page-break-before: always
+
+  @page
+    size: auto
+    margin: 0
+
+@media (max-width: $mobile-breakpoint)
+
+  .utility
+    &.space-2
+      color: #E9E9E9
+      padding-top: 1rem
+      text-align: center
+    &.space-5
+      color: #E9E9E9
+      padding-top: 2.5rem
+      text-align: center
+    &.space-10
+      color: #E9E9E9
+      padding-top: 5rem
+      text-align: center
+    &.hide-on-phones
+      display: none
+
+
+@media (min-width: $mobile-breakpoint) and (max-width: $tablet-breakpoint)
+  .utility
+    &.hide-on-tablets
+      display: none
+
+@media (min-width: $tablet-breakpoint)
+  .utility
+    &.hide-on-desktop
+      display: none

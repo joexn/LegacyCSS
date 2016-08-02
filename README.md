@@ -1,73 +1,98 @@
-#### Please read
-Legacy 4.0 [alpha](https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha) has nearly been completed. I am going to be releasing the Legacy 4.0 public [beta](https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta) very soon.
-All development versions are released early to our Slack team for testing which then results in a public [RC](https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate). Email me [here](mailto:hi@joexn.com?subject=Slack team) and I'll send you an invite.
-If you have any questions about Legacy, Twitter is the best way to contact me.
+<br><br>
 
-This week is going to be extreamly busy as I am switching to better servers, new domains and a 100% uptime CDN.
+<h3 align="center"> Legacy Framework 4.0 </h1>
+<h5 align="center"> modern design, lightweight framework </h3>
 
-
-
-# [Legacy Framework 3.4](https://legacy-framework.com) 
-### modern design, lightweight framework
-![development](https://img.shields.io/badge/ Stability: - Unstable -yellow.svg)
-
-(If you haven't been keeping up the with the development of Legacy, it was recently discussed that the previous versions haven't been stable enough for public use. This version is currently unstable and I'd wait until 4.0 is released before you use Legacy)
-
-Anyone can download Legacy and use it, all you need to do is head over the the releases tab, download the latest version then you can start creating your own site.
-Legacy is built for anyone, if you either have a lot of knowledge on web design, or none at all.. You can use Legacy to create a neat looking site based on your design preferences.
-<br />
-Check out <https://legacy-framework.com> for examples and details.<br />
-<br />
-Legacy was made as a minimalistic approach to modern web design. Legacy continues to be updated with improved code for the future.
-The colour scheme is from Google's Material Design, and the styles are flat and very modern.
-
+<br><br><br><br>
 
 #### What's in the download?
 
-Included in every release is the SASS file, CSS file, minified CSS file and a Getting Started page.
+The download contains just what's in the repo:
 
 ```
-
-Legacy/
-├── Hello.html
+LegacyFramework
 ├── LICENSE
-├── legacy.css
-├── legacy.min.css
-├── legacy-core.sass
-└── legacy.sass
-
+├── README.md
+├── dist
+│   ├── legacy.css
+│   └── legacy.min.css
+├── index.html
+└── src
+    ├── legacy.sass
+    └── partials
+        ├── legacybuttons.sass
+        ├── legacycolors.sass
+        ├── legacyforms.sass
+        ├── legacygrid.sass
+        ├── legacynavbar.sass
+        ├── legacyother.sass
+        ├── legacyreset.sass
+        ├── legacysetup.sass
+        ├── legacytables.sass
+        ├── legacytypography.sass
+        └── legacyutilities.sass
 ```
 
-#### How to install, compress and minify.
+<br><br><br>
 
-I use [Atom](https://atom.io) to code SASS, then it automatically compiles and minifies the files for me. <br />
-<br /><br />
-Prefer a more traditional method? Use the instructions below.
-
-> Install SASS using if you haven't already:
-
->     gem install sass
-
-> (Depending on your setup, this may or may not require `sudo`.)
-
-> To compile the SASS source code to CSS, use:
-
->     sass legacy-core.sass legacy.css
-
-> To compile the SASS source to a minified file, use:
-
->     sass -t compressed legacy.sass legacy.min.css
-
-#### Please note
-
-You are allowed to host your own themes and templates for Legacy on your own site but you are **NOT** allowed to show ads on the page. Any form of monetization is not allowed.
 
 #### Want us to host it?
-To use Legacy on your site without downloading it, include this code in your <head> tags:
 
-```
-<link href="https://legacy-framework.com/legacy-latest.min.css" rel="stylesheet">
-```
+To use Legacy on your site without downloading it, include this code in your head tags:
 
-<br><br>
-##### [made by joexn :ok_hand:](https://joexn.com)
+    <link href="https://cdn.joexn.io/legacy.css" rel="stylesheet">
+
+<br><br><br>
+
+
+
+### How To Build Legacy From Source, In 3 Easy Steps.
+
+Included in the repo is a build system to help you build and modify Legacy.
+
+#### 1) Ensure you have NodeJS installed. If you don't, download it [here](https://nodejs.org).
+Verify you have node installed by using the command:
+
+    node -v
+
+If you see the the version number, you are ready to proceed. If not, you will have to ensure you both have node installed and it is configured in your system's path.
+
+#### 2) Run 'npm install' to resolve dependencies.
+Navigate to the 'LegacyFramework' folder containing the 'package.json' file. By running the following command, you will invoke the node package manager (npm) to download the dependencies needed by the build suite.
+
+    npm install
+
+#### 3) Insure you gave gulp installed.
+Depending on your setup, you might need to use `sudo` before the following line of code.
+
+    npm install --global gulp-cli
+
+You will then be able to run the following command.
+
+    gulp
+
+Gulp is a modern streaming build system that will compile the Legacy sass files into workable css. In addition, it will monitor changes to the source and automatically reprocess the source - so changes are shown immediately. Also included in the build suite is browsersync. Browsersync is a tool that will automatically inject any changes into your browser - providing almost instant feedback for any changes.
+
+##### Using BrowserSync for development
+Also included in the build suite is browsersync. Browsersync is a tool that will automatically inject changes to Legacy into any open and connected browser, providing instant visual feedback for any changes. To run gulp with browsersync, you can run the following command:
+
+    gulp serve
+
+
+<br><br><br>
+
+<center>[designed and developed by joexn :ok_hand:](https://joexn.com)</center>
+
+<br><br><br>
+
+### check out these guys
+
+
+All the people listed below have helped shape Legacy into the framework it is today.
+<small>(you will only be listed here if you have helped more than once with Legacy's development)</small>
+
+[/nloveladyallen](https://github.com/nloveladyallen)
+
+[/georgejenkins](https://github.com/georgejenkins)
+
+[/Haroenv](https://github.com/Haroenv)
