@@ -16,6 +16,7 @@
     text-align: center
     a
       color: $accent
+      border-bottom: 1px solid $accent
   &.space-5
     font-family: $font
     color: $accent
@@ -24,6 +25,7 @@
     text-align: center
     a
       color: $accent
+      border-bottom: 1px solid $accent
   &.space-10
     font-family: $font
     color: $accent
@@ -32,6 +34,7 @@
     text-align: center
     a
       color: $accent
+      border-bottom: 1px solid $accent
   &.center
     margin: 0 auto
     text-align: center
@@ -43,7 +46,8 @@
   &.hide-on-print
     display: block
 
-
+  &.page-break
+    display: none
 
 @media print
   .utility
@@ -52,6 +56,11 @@
 
     &.hide-on-print
       display: none
+
+    &.page-break
+      display: block
+      page-break-before: always
+
   @page
     size: auto
     margin: 0

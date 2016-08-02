@@ -31,7 +31,47 @@ nav
   z-index: 999
   width: 100%
   display: inline-block
-
+  .menu-icon
+    position: absolute
+    top: 0px
+    cursor: pointer
+    display: inline-block
+    padding: 2.8rem 0 0 0
+    user-select: none
+    .navicon
+      background: $nav-foreground-color
+      display: block
+      height: 2px
+      position: relative
+      transition: background 0.2s ease-out
+      width: 18px
+      &:before, &:after
+        background: $nav-foreground-color
+        content: ""
+        display: block
+        height: 100%
+        position: absolute
+        transition: all 0.2s ease-out
+        width: 100%
+      &:before
+        top: 5px
+      &:after
+        top: -5px
+  .menu-btn
+    display: none
+    &:checked ~
+      .menu
+        max-height: 240px
+      .menu-icon
+        .navicon
+          background: transparent
+          &:before
+            transform: rotate(-45deg)
+          &:after
+            transform: rotate(45deg)
+        &:not(.steps) .navicon
+          &:before, &:after
+            top: 0
   // Makes the navbar fixed to the top of the page
   &.nav-fixed
     position: fixed
@@ -71,6 +111,7 @@ nav
         opacity: 0
         height: 0
         z-index: 999
+        min-width: 100%
         background-color: $nav-background-color
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 4px 0 rgba(0, 0, 0, 0.048), 0 3px 1px -2px rgba(0, 0, 0, 0.12)
         // Items in dropdown menu
@@ -192,47 +233,3 @@ nav
 
     @media screen and (max-width: $mobile-breakpoint)
       visibility: visible
-
-.menu-icon
-  position: absolute
-  right: 0px
-  top: 0px
-  cursor: pointer
-  display: inline-block
-  padding: 2.8rem 0 0 0
-  margin-right: -2rem
-  user-select: none
-  .navicon
-    background: $nav-foreground-color
-    display: block
-    height: 2px
-    position: relative
-    transition: background 0.2s ease-out
-    width: 18px
-    &:before, &:after
-      background: $nav-foreground-color
-      content: ""
-      display: block
-      height: 100%
-      position: absolute
-      transition: all 0.2s ease-out
-      width: 100%
-    &:before
-      top: 5px
-    &:after
-      top: -5px
-.menu-btn
-  display: none
-  &:checked ~
-    .menu
-      max-height: 240px
-    .menu-icon
-      .navicon
-        background: transparent
-        &:before
-          transform: rotate(-45deg)
-        &:after
-          transform: rotate(45deg)
-      &:not(.steps) .navicon
-        &:before, &:after
-          top: 0

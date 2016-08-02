@@ -1,164 +1,72 @@
 <!--
 
-    Hello,
-
-    Welcome to Legacy.
-
+    Legacy Framework
 
     @joexn_
-
-    joexn.io
+    https://joexn.io
 
   -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
+
+    <!-- Page Title -->
+    <title>My website</title>
+
+    <!-- Set Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello - Legacy Framework</title>
-    <meta name="author" content="joexn">
-    <meta name="description" content="The getting started page for the Legacy Framework. This page contains the code you need to get started creating your own website.">
-    <meta name="keywords" content="Legacy, Framework, Getting, Started, joexn, LegacyFramework.com">
-    <meta name="robots" content="index,follow">
+
+    <!-- Link Legacy -->
     <link href="dist/legacy.css" rel="stylesheet">
   </head>
   <body>
-    <div class="utility hide-on-print">
-      <nav class="nav-fixed">
-        <!--<label for="menuToggle">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </label>
-        <input type="checkbox" id="menuToggle">-->
-
-        <input class="menu-btn" type="checkbox" id="menu-btn">
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-
-        <ul id="nav-menu">
-          <li class="nav-label">
-            <a class="nav-label" href="https://legacy-framework.com">Legacy Framework</a>
-          </li>
-          <li class="nav-right">
-            <a href="https://twitter.com/joexn_">joexn twitter</a>
-          </li>
-          <li class="nav-right">
-            <a class="dropdown">GitHub</a>
-            <ul>
-              <li>
-                <a href="https://github.com/joexn/LegacyFramework/issues">Issues</a>
-              </li>
-              <li>
-                <a href="https://github.com/joexn/LegacyFramework/pulls">Pull Requests</a>
-              </li>
-              <li>
-                <a href="https://github.com/joexn/LegacyFramework/releases/">Releases</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-      <div class="nav-space"></div>
-
-      <div class="container">
-
-        <div class="hero">
-          <h1>Legacy Framework <span class="text primary">4.0</span></h1>
-          <a href="https://twitter.com/joexn_" class="twitter-follow-button" data-dnt="true" data-show-count="false">Follow @joexn_</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-
-        <div class="utility center space-5">
-          <h4>Some new things in 4.0</h4>
-          <div class="utility space-5">(Try right-click print)</div>
-          <br /><br />
-
-          <div class="btn">Button</div>
-          <div class="btn dark">Button</div>
-          <div class="btn primary">Button</div>
-          <div class="btn success">Button</div>
-          <div class="btn warning">Button</div>
-          <div class="btn alert">Button</div>
 
 
-          <div class="utility space-5"></div>
-          <div class="utility hide-on-tablets btn primary">This button will be hidden on tablets</div>
-          <div class="utility hide-on-phones btn primary">This button will be hidden on phones</div>
-          <div class="utility hide-on-phones hide-on-tablets btn primary">This button will be hidden on tablets & phones</div>
-          <div class="utility hide-on-desktop btn primary">This button will be hidden on desktops</div>
-          <div class="utility space-5"></div>
-        </div>
+    <!-- Navbar -->
+    <nav>
+      <input class="menu-btn" type="checkbox" id="menu-btn">
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul id="nav-menu">
+        <li class="nav-label">
+          <a class="nav-label" href="">My website</a>
+        </li>
+        <li class="nav-right">
+          <a href="https://twitter.com/joexn_">Link</a>
+        </li>
+        <li class="nav-right">
+          <a class="dropdown">Dropdown</a>
+          <ul>
+            <li>
+              <a href="">Link</a>
+            </li>
+            <li>
+              <a href="">Link</a>
+            </li>
+            <li>
+              <a href="">Link</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!-- End Navbar -->
 
-        <div class="message">
-          <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
-          This is a message box.
-        </div><br />
-        <div class="message primary">
-          <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
-          This is a message box.
-        </div><br />
-        <div class="message success">
-          <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
-          This is a message box.
-        </div><br />
-        <div class="message warning">
-          <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
-          This is a message box.
-        </div><br />
-        <div class="message alert">
-          <span class="close" onclick="this.parentElement.style.display='none';">&times;</span>
-          This is a message box.
-        </div>
+    <!-- Hero -->
+    <div class="hero">
 
-        <div class="utility space-5"></div>
+      <!-- Heading 1 -->
+      <h1>My website <span class="text primary"></span></h1>
 
-        <form>
-
-          <div class="group">
-            <label id="legacy">Name:</label>
-            <input type="text" required="" placeholder="John Smith">
-          </div>
-
-          <div class="group">
-            <label id="legacy">Name:</label>
-            <input type="text" required="" value="Hi... I'm John Smith">
-          </div>
-
-        </form>
-
-        <div class="utility space-5"></div>
-
-
-        <table class="table">
-          <tr>
-            <th>Movie Title</th>
-            <th>Year</th>
-            <th>Gross</th>
-          </tr>
-          <tr>
-            <td data-th="Movie Title">Avatar</td>
-            <td data-th="Year">2008</td>
-            <td data-th="Gross">$2,787,965,087</td>
-          </tr>
-          <tr>
-            <td data-th="Movie Title">Titanic</td>
-            <td data-th="Year">1997</td>
-            <td data-th="Gross">$2,186,772,302</td>
-          </tr>
-          <tr>
-            <td data-th="Movie Title">Star Wars: The Force Awakens</td>
-            <td data-th="Year">2015</td>
-            <td data-th="Gross">$2,068,178,225</td>
-          </tr>
-        </table>
-
+        <!-- Heading 6 -->
+        <h6>Using Legacy <span class="text primary">4.0</span></h6>
+        <div class="utility space-10">Want to see what you can do with Legacy? Visit the <a href="https://legacy-framework.com/docs" target="_blank">/docs</a></div>
         <div class="utility space-10"></div>
-        <h6 class="utility center"><a href="https://joexn.com">Designed and Developed by joexn</a></h6>
-        <div class="utility space-5"></div>
 
-      </div>
+      <!-- Link -->
+      <a href="https://twitter.com/joexn_" class="twitter-follow-button" data-dnt="true" data-show-count="false">Follow @joexn_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
-    <div class="utility show-on-print">
-      <div class="utility space-10"></div>
-      <div class="utility space-10"></div>
-      <h3 style="text-align:center">Pretty neat, yeah?</h3>
-    </div>
+    <!-- End Hero -->
+
   </body>
 </html>
