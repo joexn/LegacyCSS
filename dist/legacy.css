@@ -187,7 +187,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: "Helvetica Neue", "Roboto", sans-serif;
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
   vertical-align: baseline; }
 
 article, aside, details, figcaption, figure,
@@ -480,7 +480,7 @@ input[type=checkbox] {
   margin: 0; }
 
 nav {
-  font: "Helvetica Neue", "Roboto", sans-serif;
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
   font-size: 0.9em;
   color: #7B8EAA;
   height: 60px;
