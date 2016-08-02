@@ -46,25 +46,25 @@ To use Legacy on your site without downloading it, include this code in your hea
 
 
 
-### How To Build Legacy From Source
+### How To Build Legacy From Source, In 3 Easy Steps.
 
 Included in the repo is a build system to help you build and modify Legacy.
 
-#### Ensure you have nodejs installed.
-To utilise the project build suite, you will need to have nodejs installed on your system. You can verify you have node installed by using the command:
+#### 1) Ensure you have NodeJS installed. If you don't, download it [here](https://nodejs.org).
+Verify you have node installed by using the command:
 
     node -v
 
 If you see the the version number, you are ready to proceed. If not, you will have to ensure you both have node installed and it is configured in your system's path.
 
-#### Run 'npm install' to resolve dependencies.
-To install the dependencies required by the build suite, you will need to navigate to the folder containing the 'package.json' file. By running the following command, you will invoke the node package manager (npm) to download the dependencies described in the package.json file.
+#### 2) Run 'npm install' to resolve dependencies.
+Navigate to the 'LegacyFramework' folder containing the 'package.json' file. By running the following command, you will invoke the node package manager (npm) to download the dependencies needed by the build suite.
 
     npm install
 
+#### 3) Insure you gave gulp installed.
 
-#### Run 'gulp' to start the build suite.
-    npm install --global gulp-cli
+    sudo npm install --global gulp-cli
 
 You will then be able to run the following command.
 
