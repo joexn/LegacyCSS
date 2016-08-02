@@ -229,7 +229,7 @@ nav {
         nav li:not(.nav-label) ul li {
           background-color: #444F5F;
           color: #a4b4cb;
-          width: 49%;
+          width: 48.99%;
           -webkit-transition: 0.3s;
           transition: 0.3s; }
     nav #menu-btn:checked ~ ul li {
@@ -260,7 +260,6 @@ nav {
     background-color: #444F5F; }
   nav a {
     display: block;
-    padding: 0 12px;
     text-decoration: none;
     white-space: nowrap;
     line-height: 60px;
