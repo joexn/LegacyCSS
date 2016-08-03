@@ -4,13 +4,6 @@
     right: 0
 .nav-space
   padding-bottom: 60px
-input[type=checkbox]
-  position: absolute
-  top: 0
-  right: 0
-  opacity: 0
-  padding: 0
-  margin: 0
 nav
   font-family: $font
   font-size: 0.9em
@@ -190,19 +183,25 @@ nav
       &.nav-label
         color: $nav-foreground-color
 
-  label, input[type=checkbox]
-    position: absolute
-    right: 0
-    top: 0
-    width: 60px
-    height: 60px
-    visibility: hidden
-    text-align: center
-    transition: $transition-time background-color ease-out
-    -webkit-transition: $transition-time background-color ease-out
-    cursor: pointer
-    z-index: 999
-    line-height: 60px
-
-    @media screen and (max-width: $mobile-breakpoint)
-      visibility: visible
+input[type=checkbox].navbar
+  position: absolute
+  top: 0
+  right: 0
+  opacity: 0
+  padding: 0
+  margin: 0
+label.navbar, input[type=checkbox].navbar
+  position: absolute
+  right: 0
+  top: 0
+  width: 60px
+  height: 60px
+  visibility: hidden
+  text-align: center
+  transition: $transition-time background-color ease-out
+  -webkit-transition: $transition-time background-color ease-out
+  cursor: pointer
+  z-index: 999
+  line-height: 60px
+  @media screen and (max-width: $mobile-breakpoint)
+    visibility: visible
