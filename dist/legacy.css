@@ -168,7 +168,11 @@
   .table th:last-child, .table td:last-child {
     padding-right: 0; }
   .table th, .table td {
-    padding: 1em !important; } }
+    padding: 1em !important; }
+  tbody {
+    width: 200px;
+    height: 400px;
+    overflow: auto; } }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -736,14 +740,6 @@ body {
   margin: 0;
   position: relative;
   background-color: #FFF; }
-
-@media only screen and (max-width: 207px) {
-  body {
-    display: none; }
-  html:after {
-    content: "Sorry, your device is to small to run Legacy properly.";
-    font-size: 2rem;
-    font-family: "Helvetica Neue", "Roboto", sans-serif; } }
 
 code {
   padding: .3rem .5rem;
