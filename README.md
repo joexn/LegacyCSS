@@ -1,6 +1,6 @@
 _If you are trying out the dev version of Legacy, don't create an issue for anything in the 'dev' branch. This isn't for production use and could be completly broken._
 _If you do make an issue about anything in the dev branch, it will be closed immediately without any explanation._
-<br><br>
+<br><br><br>
 
 <h3 align="center"> Legacy Framework 4.0.1 <sup>dev</sup> </h1>
 <h5 align="center"> modern design, lightweight framework </h3>
