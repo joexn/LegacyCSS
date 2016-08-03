@@ -1,6 +1,6 @@
 {
   "name": "legacyframework",
-  "version": "4.0.0",
+  "version": "4.1",
   "description": "Legacy is a modern, lightweight CSS framework.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

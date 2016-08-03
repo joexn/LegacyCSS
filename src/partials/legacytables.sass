@@ -1,30 +1,28 @@
-.table
-  margin: 1em 0
+table
+  margin: 1rem 0
   font-family: $font
   min-width: 100%
-  background-color: $main
-  color: #fff
-  overflow: hidden
-  tr
-    border-top: 0
-    border-bottom: 0
-  th
-    display: none
-  td
-    display: block
-    &:first-child
-      padding-top: .5em
-    &:last-child
-      padding-bottom: .5em
-    &:before
-      content: attr(data-th) ": "
-      font-weight: bold
-      width: 6.5em
-      display: inline-block
+  background-color: #FFF
+  color: $main
+
+.table-outter
+  overflow-x: scroll
+  border: 3px solid #f2f2f2
+
   th, td
-    border-bottom: none
+    min-width: 200px
+    border-bottom: 0
+    padding: 12px 15px
     text-align: left
-    margin: .5em 1em
+  th:first-child, td:first-child
+    padding-left: 1rem
+  th:last-child, td:last-child
+    padding-right: 0
+  table
+    font-family: $font
+  td
+    min-width: 100%
+    
 @media (min-width: $mobile-breakpoint)
   .table td:before
     display: none
@@ -32,14 +30,11 @@
     th, td
       display: table-cell
       padding: .25em .5em
+      padding-left: 10rem
     th:first-child, td:first-child
-      padding-left: 0
+      padding-left: 1rem
     th:last-child, td:last-child
-      padding-right: 0
+      padding-right: 1rem
   .table
     th, td
       padding: 1em !important
-  tbody
-    width: 200px
-    height: 400px
-    overflow: auto
