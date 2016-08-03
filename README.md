@@ -62,7 +62,7 @@ Navigate to the 'LegacyFramework' folder containing the 'package.json' file. By 
 
     npm install
 
-#### 3) Insure you gave gulp installed.
+#### 3) Ensure you gave gulp installed.
 Depending on your setup, you might need to use `sudo` before the following line of code.
 
     npm install --global gulp-cli
