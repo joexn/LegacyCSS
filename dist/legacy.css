@@ -1,6 +1,6 @@
 /*!
 
-  Legacy 4.1 Dev
+  Legacy 4.1
   by joexn
 
   https://legacy-framework.com
@@ -311,7 +311,7 @@ p {
   color: #ed4254; }
 
 .text.secondary {
-  color: #f2f2f2; }
+  color: #d1d1d1; }
 
 a {
   -webkit-transition: 0.5s;
@@ -342,6 +342,8 @@ a {
   line-height: 20px;
   font-size: 0.65em;
   padding: 1rem 4rem; }
+  .btn.sharp, button.sharp, input[type="submit"].sharp, input[type="reset"].sharp, input[type="button"].sharp {
+    border-radius: 0; }
   .btn:hover, .btn:focus, button:hover, button:focus, input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="button"]:hover, input[type="button"]:focus {
     color: #444F5F; }
   .btn.dark, button.dark, input[type="submit"].dark, input[type="reset"].dark, input[type="button"].dark {
@@ -379,10 +381,11 @@ input[type=text] {
   font-size: 18px;
   font-family: "Helvetica Neue", "Roboto", sans-serif;
   padding: 10px 10px 10px 5px;
-  color: #f2f2f2;
+  color: #d1d1d1;
   width: 50%;
   border: 0;
-  border-bottom: 2px solid rgba(147, 186, 198, 0.3); }
+  border-bottom: 2px solid rgba(147, 186, 198, 0.3);
+  background-color: transparent; }
   input[type=text]:focus {
     outline: none; }
 
@@ -476,33 +479,33 @@ label {
 
 .utility.space-2 {
   font-family: "Helvetica Neue", "Roboto", sans-serif;
-  color: #f2f2f2;
+  color: #d1d1d1;
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center; }
   .utility.space-2 a {
-    color: #f2f2f2;
-    border-bottom: 1px solid #f2f2f2; }
+    color: #d1d1d1;
+    border-bottom: 1px solid #d1d1d1; }
 
 .utility.space-5 {
   font-family: "Helvetica Neue", "Roboto", sans-serif;
-  color: #f2f2f2;
+  color: #d1d1d1;
   padding-top: 5rem;
   padding-bottom: 5rem;
   text-align: center; }
   .utility.space-5 a {
-    color: #f2f2f2;
-    border-bottom: 1px solid #f2f2f2; }
+    color: #d1d1d1;
+    border-bottom: 1px solid #d1d1d1; }
 
 .utility.space-10 {
   font-family: "Helvetica Neue", "Roboto", sans-serif;
-  color: #f2f2f2;
+  color: #d1d1d1;
   padding-top: 10rem;
   padding-bottom: 10rem;
   text-align: center; }
   .utility.space-10 a {
-    color: #f2f2f2;
-    border-bottom: 1px solid #f2f2f2; }
+    color: #d1d1d1;
+    border-bottom: 1px solid #d1d1d1; }
 
 .utility.center {
   margin: 0 auto;
@@ -567,9 +570,9 @@ label {
 nav {
   font-family: "Helvetica Neue", "Roboto", sans-serif;
   font-size: 0.9em;
-  color: #7B8EAA;
+  color: #FFF;
   height: 60px;
-  background-color: #f2f2f2;
+  background-color: #444F5F;
   z-index: 999;
   width: 100%;
   display: inline-block; }
@@ -585,7 +588,7 @@ nav {
             user-select: none; }
     nav .menu-icon .navicon {
       margin-left: 2rem;
-      background: #7B8EAA;
+      background: #FFF;
       display: block;
       height: 2px;
       position: relative;
@@ -593,7 +596,7 @@ nav {
       transition: background 0.2s ease-out;
       width: 18px; }
       nav .menu-icon .navicon:before, nav .menu-icon .navicon:after {
-        background: #7B8EAA;
+        background: #FFF;
         content: "";
         display: block;
         height: 100%;
@@ -634,12 +637,14 @@ nav {
     transition: 0.3s background-color ease-out;
     cursor: pointer;
     position: relative; }
+    nav li:not(.nav-label):hover {
+      background-color: #404a59; }
     nav li:not(.nav-label):hover ul {
       visibility: visible;
       opacity: 1;
       -webkit-transition: opacity 0.3s ease-out;
       transition: opacity 0.3s ease-out;
-      color: #7B8EAA;
+      color: #FFF;
       height: auto; }
     nav li:not(.nav-label):hover ul li {
       height: 60px; }
@@ -650,8 +655,7 @@ nav {
       height: 0;
       z-index: 999;
       min-width: 100%;
-      background-color: #f2f2f2;
-      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 4px 0 rgba(0, 0, 0, 0.048), 0 3px 1px -2px rgba(0, 0, 0, 0.12); }
+      background-color: #444F5F; }
       nav li:not(.nav-label) ul li {
         z-index: 999;
         float: none;
@@ -659,12 +663,13 @@ nav {
         position: relative;
         height: 0; }
         nav li:not(.nav-label) ul li a {
-          color: #7B8EAA; }
+          color: #FFF; }
           nav li:not(.nav-label) ul li a:hover {
-            color: #a4b4cb; }
+            color: #F2F2F2;
+            background-color: #404a59; }
   nav .dropdown {
     margin-right: 19px;
-    color: #7B8EAA; }
+    color: #FFF; }
   nav .dropdown:before {
     content: "\fe40";
     margin-top: 5px;
@@ -676,16 +681,16 @@ nav {
       display: block; }
     nav li {
       width: 100%;
-      background-color: #ededed;
+      background-color: #444F5F;
       height: 0;
       opacity: 0; }
       nav li:not(.nav-label) ul {
         position: static;
-        background-color: #f2f2f2;
+        background-color: #444F5F;
         font-size: 0.9em; }
         nav li:not(.nav-label) ul li {
-          background-color: #f2f2f2;
-          color: #a4b4cb;
+          background-color: #444F5F;
+          color: #F2F2F2;
           width: 49.5%; }
     nav #menu-btn:checked ~ ul li {
       height: 60px;
@@ -696,13 +701,11 @@ nav {
         display: inline-block; }
         nav #menu-btn:checked ~ ul li:not(.nav-label):hover {
           height: auto;
-          background-color: #d9d9d9; }
-          nav #menu-btn:checked ~ ul li:not(.nav-label):hover li:hover {
-            background-color: #d9d9d9; }
-            nav #menu-btn:checked ~ ul li:not(.nav-label):hover li:hover a {
-              color: #a4b4cb; }
-          nav #menu-btn:checked ~ ul li:not(.nav-label):hover a {
-            color: #7B8EAA; }
+          background-color: #404a59; }
+        nav #menu-btn:checked ~ ul li:not(.nav-label) a {
+          color: #FFF; }
+          nav #menu-btn:checked ~ ul li:not(.nav-label) a li:hover a {
+            color: #FFF; }
     nav .nav-label {
       width: auto;
       opacity: 1;
@@ -710,19 +713,19 @@ nav {
     nav a {
       color: #1b95e0; } }
   nav .nav-label {
-    background-color: #f2f2f2; }
+    background-color: #444F5F; }
   nav a {
     display: block;
     padding: 0 12px;
     text-decoration: none;
     white-space: nowrap;
     line-height: 60px;
-    color: #7B8EAA;
+    color: #FFF;
     font-weight: 400; }
     nav a:hover {
-      color: #a4b4cb; }
+      color: #F2F2F2; }
       nav a:hover.nav-label {
-        color: #7B8EAA; }
+        color: #FFF; }
 
 input[type=checkbox].navbar {
   position: absolute;

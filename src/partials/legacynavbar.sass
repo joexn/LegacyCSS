@@ -72,6 +72,8 @@ nav
     position: relative
 
     &:not(.nav-label)
+      &:hover
+        background-color: darken($nav-background-color, 2%)
       &:hover ul
         visibility: visible
         opacity: 1
@@ -88,7 +90,6 @@ nav
         z-index: 999
         min-width: 100%
         background-color: $nav-background-color
-        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 4px 0 rgba(0, 0, 0, 0.048), 0 3px 1px -2px rgba(0, 0, 0, 0.12)
         li
           z-index: 999
           float: none
@@ -98,7 +99,8 @@ nav
           a
             color: $nav-foreground-color
             &:hover
-              color: #a4b4cb
+              color: $nav-foreground-hover
+              background-color: darken($nav-background-color, 2%)
   .dropdown
     margin-right: 19px
     color: $nav-foreground-color
@@ -108,7 +110,7 @@ nav
     right: 10px
     position: absolute
 
-  // Mobile
+  // These classes are for Mobile Users
   @media screen and (max-width: $mobile-breakpoint)
     ul
       width: 100%
@@ -116,7 +118,7 @@ nav
 
     li
       width: 100%
-      background-color: darken($nav-background-color, 2%)
+      background-color: $nav-background-color
       height: 0
       opacity: 0
 
@@ -128,7 +130,7 @@ nav
 
           li
             background-color: $nav-background-color
-            color: #a4b4cb
+            color: $nav-foreground-hover
             width: 49.5%
 
     #menu-btn:checked
@@ -137,28 +139,21 @@ nav
         z-index: 999
         visibility: visible
         opacity: 1
-
         &:not(.nav-label)
           display: inline-block
-
           &:hover
             height: auto
-            background-color: darken($nav-background-color, 10%)
-
+            background-color: darken($nav-background-color, 2%)
+          a
+            color: $nav-foreground-color
             li:hover
-              background-color: darken($nav-background-color, 10%)
-
               a
-                color: #a4b4cb
-
-            a
-              color: $nav-foreground-color
+                color: $nav-foreground-color
 
     .nav-label
       width: auto
       opacity: 1
       height: 60px
-
     a
       color: $primary
     // End Mobile
@@ -167,7 +162,6 @@ nav
 
   .nav-label
     background-color: $nav-logo-background-color
-
   a
     display: block
     padding: 0 12px
@@ -176,10 +170,8 @@ nav
     line-height: $nav-height
     color: $nav-foreground-color
     font-weight: 400
-
     &:hover
-      color: #a4b4cb
-
+      color: $nav-foreground-hover
       &.nav-label
         color: $nav-foreground-color
 
