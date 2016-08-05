@@ -1,8 +1,4 @@
-_If you are trying out the dev version of Legacy, don't create an issue for anything in the 'dev' branch. This isn't for production use and could be completly broken._
-_If you do make an issue about anything in the dev branch, it will be closed immediately without any explanation._
-<br><br><br>
-
-<h3 align="center"> Legacy Framework 4.1 <sup>alpha</sup> </h1>
+<h3 align="center"> Legacy Framework 4.1</h1>
 <h5 align="center"> modern design, lightweight framework </h3>
 
 <br><br><br><br>
