@@ -1,6 +1,8 @@
-<br><br>
+_If you are trying out the dev version of Legacy, don't create an issue for anything in the 'dev' branch. This isn't for production use and could be completly broken._
+_If you do make an issue about anything in the dev branch, it will be closed immediately without any explanation._
+<br><br><br>
 
-<h3 align="center"> Legacy Framework 4.0 </h1>
+<h3 align="center"> Legacy Framework 4.1 <sup>alpha</sup> </h1>
 <h5 align="center"> modern design, lightweight framework </h3>
 
 <br><br><br><br>
@@ -62,7 +64,7 @@ Navigate to the 'LegacyFramework' folder containing the 'package.json' file. By 
 
     npm install
 
-#### 3) Insure you gave gulp installed.
+#### 3) Ensure you gave gulp installed.
 Depending on your setup, you might need to use `sudo` before the following line of code.
 
     npm install --global gulp-cli

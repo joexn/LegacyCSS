@@ -91,8 +91,42 @@
   content: ""
   display: table
   clear: both
-@media (min-width: $mobile-breakpoint)
+@media (max-width: $mobile-breakpoint)
+  .column, .columns
+    margin-left: 0
   .container
     width: 80%
   article
     padding: 3rem 0
+  .one
+    &.column, &.columns
+      width: 100%
+  .two.columns
+    width: 100%
+  .three.columns
+    width: 100%
+  .four.columns
+    width: 100%
+  .five.columns
+    width: 100%
+  .six.columns
+    width: 100%
+  .seven.columns
+    width: 100%
+  .eight.columns
+    width: 100%
+  .nine.columns
+    width: 100%
+  .ten.columns
+    width: 100%
+  .eleven.columns
+    width: 100%
+  .twelve.columns
+    width: 100%
+    margin-left: 0
+  .one-third.column
+    width: 100%
+  .two-thirds.column
+    width: 100%
+  .one-half.column
+    width: 100%
