@@ -1,3 +1,5 @@
+<center>[Please read: Sorry for the delay.. Legacy 4.2 is out.](https://blog.legacy-framework.com/index.php/posts/legacy-4-2-is-out)</center>
+
 <br><br><br>
 
 <h3 align="center">Legacy Framework 4.2</h1>
