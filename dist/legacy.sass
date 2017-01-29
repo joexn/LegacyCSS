@@ -1,0 +1,563 @@
+/*!
+
+  Legacy 4.2
+  by joexn
+
+  https://legacy-framework.com
+  https://github.com/joexn/LegacyFramework
+
+  Copyright (c) 2016 joexn
+  Licensed under the MIT License
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:200,300')
+
+
+$primary: #36ABC1
+$success: #41b497
+$warning: #FC6E51
+$alert: #ed4254
+$main: #444F5F
+$accent: #d1d1d1
+
+$primary_2: darken( $primary, 10% )
+$success_2: darken( $success, 10% )
+$warning_2: darken( $warning, 10% )
+$alert_2: darken( $alert, 10% )
+$main_2: darken( $main, 10% )
+
+$max-width-container: 960px
+$font: "Rubik", sans-serif
+$font-size: 1.6em
+$font-weight: 200
+$fade-transition: .5s
+$mobile-breakpoint: 550px
+$tablet-breakpoint: 1185px
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font-family: $font
+  vertical-align: baseline
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section
+  display: block
+body
+  line-height: 1
+ol, ul
+  list-style: none
+blockquote, q
+  quotes: none
+blockquote:before, blockquote:after,
+q:before, q:after
+  content: ""
+  content: none
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+*
+  font-family: $font
+
+html
+  font-size: 62.5%
+
+body
+  font-size: $font-size
+  line-height: 1.5
+  font-weight: $font-weight
+  font-family: $font
+  color: $main
+  margin: 0
+  position: relative
+
+.container
+  position: relative
+  width: 100%
+  max-width: $max-width-container
+  margin: 0 auto
+  padding: 0 20px
+  box-sizing: border-box
+.column, .columns
+  width: 100%
+  float: left
+  box-sizing: border-box
+.column, .columns
+  margin-left: 4%
+.column:first-child, .columns:first-child
+  margin-left: 0
+.one
+  &.column, &.columns
+    width: ((1 * 26% - 12) / 3)
+.two.columns
+  width: ((2 * 26% - 12) / 3)
+.three.columns
+  width: ((3 * 26% - 12) / 3)
+.four.columns
+  width: ((4 * 26% - 12) / 3)
+.five.columns
+  width: ((5 * 26% - 12) / 3)
+.six.columns
+  width: ((6 * 26% - 12) / 3)
+.seven.columns
+  width: ((7 * 26% - 12) / 3)
+.eight.columns
+  width: ((8 * 26% - 12) / 3)
+.nine.columns
+  width: ((9 * 26% - 12) / 3)
+.ten.columns
+  width: ((10 * 26% - 12) / 3)
+.eleven.columns
+  width: ((11 * 26% - 12) / 3)
+.twelve.columns
+  width: ((12 * 26% - 12) / 3)
+  margin-left: 0
+.one-third.column
+  width: ((1 * 104% - 12) / 3)
+.two-thirds.column
+  width: ((2 * 104% - 12) / 3)
+.one-half.column
+  width: ((1 * 156% - 12) / 3)
+.offset-by-one
+  &.column, &.columns
+    margin-left: (1 * 26% / 3)
+.offset-by-two
+  &.column, &.columns
+    margin-left: (2 * 26% / 3)
+.offset-by-three
+  &.column, &.columns
+    margin-left: (3 * 26% / 3)
+.offset-by-four
+  &.column, &.columns
+    margin-left: (4 * 26% / 3)
+.offset-by-five
+  &.column, &.columns
+    margin-left: (5 * 26% / 3)
+.offset-by-six
+  &.column, &.columns
+    margin-left: (6 * 26% / 3)
+.offset-by-seven
+  &.column, &.columns
+    margin-left: (7 * 26% / 3)
+.offset-by-eight
+  &.column, &.columns
+    margin-left: (8 * 26% / 3)
+.offset-by-nine
+  &.column, &.columns
+    margin-left: (9 * 26% / 3)
+.offset-by-ten
+  &.column, &.columns
+    margin-left: (10 * 26% / 3)
+.offset-by-eleven
+  &.column, &.columns
+    margin-left: (11 * 26% / 3)
+.offset-by-one-third
+  &.column, &.columns
+    margin-left: (1 * 104% / 3)
+.offset-by-two-thirds
+  &.column, &.columns
+    margin-left: (2 * 104% / 3)
+.offset-by-one-half
+  &.column, &.columns
+    margin-left: (1 * 156% / 3)
+.container:after, .row:after, .u-cf
+  content: ""
+  display: table
+  clear: both
+@media (max-width: $mobile-breakpoint)
+  .column, .columns
+    margin-left: 0
+  .container
+    width: 80%
+  article
+    padding: 3rem 0
+  .one
+    &.column, &.columns
+      width: 100%
+  .two.columns
+    width: 100%
+  .three.columns
+    width: 100%
+  .four.columns
+    width: 100%
+  .five.columns
+    width: 100%
+  .six.columns
+    width: 100%
+  .seven.columns
+    width: 100%
+  .eight.columns
+    width: 100%
+  .nine.columns
+    width: 100%
+  .ten.columns
+    width: 100%
+  .eleven.columns
+    width: 100%
+  .twelve.columns
+    width: 100%
+    margin-left: 0
+  .one-third.column
+    width: 100%
+  .two-thirds.column
+    width: 100%
+  .one-half.column
+    width: 100%
+
+h1, h2, h3, h4, h5, h6
+  color: $main
+  margin-top: 0
+  margin-bottom: 2rem
+  font-family: $font
+  font-weight: $font-weight
+  line-height: 1.1
+h1
+  font-size: 3.5rem
+  line-height: 1.2
+  letter-spacing: -.1rem
+h2
+  font-size: 3rem
+  line-height: 1.25
+  letter-spacing: -.1rem
+h3
+  font-size: 2.6rem
+  line-height: 1.3
+  letter-spacing: -.1rem
+h4
+  font-size: 2.3rem
+  line-height: 1.35
+  letter-spacing: -.08rem
+h5
+  font-size: 1.6rem
+  line-height: 1.5
+  letter-spacing: -.05rem
+h6
+  font-size: 1.5rem
+  line-height: 1.6
+  letter-spacing: 0
+p
+  margin-top: 0
+
+@media (max-width: 550px)
+  h1
+    font-size: 4rem
+    font-weight: 300
+  h2
+    font-size: 3.2rem
+  h3
+    font-size: 2.6rem
+  h4
+    font-size: 2rem
+  h5
+    font-size: 1.4rem
+  h6
+    font-size: 1rem
+
+
+.text.primary
+  color: $primary
+
+.text.warning
+  color: $warning
+
+.text.success
+  color: $success
+
+.text.alert
+  color: $alert
+
+.text.secondary
+  color: $accent
+
+
+a
+  transition: $fade-transition
+  color: $primary
+  text-decoration: none
+  &:hover
+    transition: $fade-transition
+    color: $primary_2
+
+
+.btn
+    background-color: #FFF
+    color: #333
+    padding: 10px 20px
+    border-radius: 3px
+    letter-spacing: 0.06em
+    text-transform: uppercase
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+    cursor: pointer
+    font-size: 12px
+    font-family: $font
+    &:hover
+      color: #333
+      box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12)
+
+.btn.primary
+    background-color: $primary
+    color: #FFF
+
+
+.btn.warning
+  background-color: $warning
+  color: #FFF
+
+
+.btn.alert
+  background-color: $alert
+  color: #FFF
+
+
+.btn.success
+  background-color: $success
+  color: #FFF
+
+
+
+input
+  margin: 40px 25px
+  width: 200px
+  display: block
+  border: none
+  padding: 10px 0
+  border-bottom: solid 1px $primary
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1)
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1)
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, $primary 4%)
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, $primary 4%)
+  background-position: -200px 0
+  background-size: 200px 100%
+  background-repeat: no-repeat
+  color: $main
+  font-size: 14px
+  &:focus, &:valid
+    box-shadow: none
+    outline: none
+    background-position: 0 0
+  &:focus::-webkit-input-placeholder, &:valid::-webkit-input-placeholder
+    color: $primary
+    font-size: 11px
+    -webkit-transform: translateY(-20px)
+    transform: translateY(-20px)
+    visibility: visible !important
+
+input::-webkit-input-placeholder
+  font-family: $font
+  -webkit-transition: all 0.3s ease-in-out
+  transition: all 0.3s ease-in-out
+
+
+
+table
+  margin: 1rem 0
+  font-family: $font
+  min-width: 100%
+  background-color: #FFF
+  color: $main
+
+.table-outter
+  overflow-x: scroll
+  border: 3px solid #f2f2f2
+
+  th, td
+    min-width: 200px
+    border-bottom: 0
+    padding: 12px 15px
+    text-align: left
+  th:first-child, td:first-child
+    padding-left: 1rem
+  th:last-child, td:last-child
+    padding-right: 0
+  table
+    font-family: $font
+  td
+    min-width: 100%
+
+@media (min-width: $mobile-breakpoint)
+  .table td:before
+    display: none
+  .table
+    th, td
+      display: table-cell
+      padding: .25em .5em
+      padding-left: 10rem
+    th:first-child, td:first-child
+      padding-left: 1rem
+    th:last-child, td:last-child
+      padding-right: 1rem
+  .table
+    th, td
+      padding: 1em !important
+
+
+.heading
+    background-color: $primary
+    display: block
+    height: 30rem
+    width: 100%
+
+.paper
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .05), 0 1px 4px 0 rgba(0, 0, 0, .08), 0 3px 1px -2px rgba(0, 0, 0, .2)
+    text-align: center
+    width: 80rem
+    margin: auto
+    padding: 7rem 0
+    margin-top: -17rem
+    background-color: #FFF
+
+@media only screen and (max-width: $mobile-breakpoint)
+  .paper
+      text-align: center
+      width: 90%
+      padding: 7rem 0
+
+.hero
+  position: relative
+  background-color: #FFF
+  text-align: center
+  color: $main
+  font-family: $font
+  padding: 10rem 0
+  margin-bottom: 5rem
+  h1,h2,h3,h4,h5,h6,p
+    line-height: 1.3
+    color: $main
+    font-weight: $font-weight
+.hero.default
+  color: #FFF
+  background-color: $main
+.hero.primary
+  color: #FFF
+  background-color: $primary
+.hero.success
+  color: #FFF
+  background-color: $success
+.hero.warning
+  color: #FFF
+  background-color: $warning
+.hero.alert
+  color: #FFF
+  background-color: $alert
+.hero
+  &.primary,&.success,&.warning,&.alert,&.default
+    h1,h2,h3,h4,h5,h6,p
+      color: #FFF
+
+.message
+  padding: 20px
+  background-color: $main
+  color: white
+  font-weight: 400
+  -webkit-transition: opacity 400ms ease-in
+  -moz-transition: opacity 400ms ease-in
+  transition: opacity 400ms ease-in
+.message.primary
+  background-color: $primary
+.message.success
+  background-color: $success
+.message.warning
+  background-color: $warning
+.message.alert
+  background-color: $alert
+
+.label
+  display: inline-block
+  line-height: 1
+  white-space: nowrap
+  cursor: default
+  border-radius: 0
+  background: $main
+  color: #FFF
+  -o-transition: .5s
+  -ms-transition: .5s
+  -moz-transition: .5s
+  -webkit-transition: .5s
+  transition: .5s
+  padding: .5rem 1.3rem
+.label.primary
+  background: $primary
+.label.warning
+  background: $warning
+.label.success
+  background: $success
+.label.alert
+  background: $alert
+
+hr
+  margin-top: 3rem
+  margin-bottom: 3.5rem
+  border-width: 0
+  border-top: 1px solid #E9E9E9
+
+.utility
+  &.full-width
+    width: 100%
+    box-sizing: border-box
+  &.float-right
+    float: right
+  &.float-left
+    float: left
+  &.space-2
+    padding-top: 2rem
+    padding-bottom: 2rem
+  &.space-5
+    padding-top: 5rem
+    padding-bottom: 5rem
+  &.space-10
+    padding-top: 10rem
+    padding-bottom: 10rem
+  &.center
+    text-align: center
+  &.hide
+    display: none
+  &.show-on-print
+    display: none
+  &.hide-on-print
+    display: block
+  &.page-break
+    display: none
+  &.large-space
+    padding-top: 25vh
+
+// Mobiles
+@media (max-width: $mobile-breakpoint)
+  .utility
+    &.space-2
+      padding-top: 1rem
+      text-align: center
+    &.space-5
+      padding-top: 2.5rem
+      text-align: center
+    &.space-10
+      padding-top: 5rem
+      text-align: center
+    &.hide-on-phones
+      display: none
+
+// Tablets
+@media (min-width: $mobile-breakpoint) and (max-width: $tablet-breakpoint)
+  .utility
+    &.hide-on-tablets
+      display: none
+
+// Desktop
+@media (min-width: $tablet-breakpoint)
+  .utility
+    &.hide-on-desktop
+      display: none
