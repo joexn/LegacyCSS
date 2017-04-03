@@ -1,13 +1,14 @@
-/*!
+/*
 
-  Legacy 4.2
-  by joexn
+  LegacyCSS 4.2
 
-  https://legacy-framework.com
-  https://github.com/joexn/LegacyFramework
+  https://legacycss.com
+  https://github.com/joexn/LegacyCSS
 
-  Copyright (c) 2016 joexn
-  Licensed under the MIT License */
+  Copyright (c) 2017 joexn
+  Licensed under the MIT License
+
+*/
 @import url("https://fonts.googleapis.com/css?family=Rubik:200,300");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
