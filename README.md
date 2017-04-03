@@ -1,6 +1,6 @@
 <br><br><br>
 
-<h3 align="center">Legacy Framework 4.2</h1>
+<h3 align="center">LegacyCSS 4.2</h1>
 <h5 align="center">Modern Design, Lightweight Footprint.</h3>
 
 <br><br><br><br>
@@ -28,7 +28,7 @@ LegacyFramework
 
 To use Legacy on your site without downloading it, include this code in your head tags:
 
-    <link href="https://legacy-framework.com/legacy.css" rel="stylesheet">
+    - Coming with the next release!
 
 <br><br><br>
 
