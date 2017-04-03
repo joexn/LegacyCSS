@@ -1,7 +1,7 @@
 <br><br><br>
 
-<h3 align="center">LegacyCSS 4.2</h1>
-<h5 align="center">Modern Design, Lightweight Footprint.</h3>
+<h3 align="center">LegacyCSS 4.2</h3>
+<h5 align="center">Modern Design, Lightweight Footprint.</h5>
 
 <br><br><br><br>
 
@@ -29,6 +29,12 @@ LegacyFramework
 To use Legacy on your site without downloading it, include this code in your head tags:
 
     - Coming with the next release!
+
+<br><br><br>
+
+#### Future Releases
+
+LegacyCSS 4.3 = 15th April 2017
 
 <br><br><br>
 
