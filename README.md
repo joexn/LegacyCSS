@@ -28,15 +28,15 @@ LegacyFramework
 
 To use Legacy on your site without downloading it, include this code in your head tags:
 
-    - Coming with the next release!
+    Coming with the next release!
 
 <br><br><br>
 
-#### Future Releases
+#### Next release:
 
 LegacyCSS 4.3 = 15th April 2017
 
 <br><br><br>
 
 
-<center>[Designed and Developed by Joe Hannon](https://joexn.com)</center>
+[Designed and Developed by Joe Hannon](https://joexn.com)
