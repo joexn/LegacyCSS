@@ -1,24 +1,24 @@
-<br><br><br>
+<br><br>
 
-<h3 align="center">LegacyCSS 4.2</h3>
-<h5 align="center">Modern Design, Lightweight Footprint.</h5>
+<h3 align="center">LegacyCSS 4.3</h1>
+<h5 align="center">Modern Design, Lightweight Footprint.</h3>
 
 <br><br><br><br>
 
 #### What's in the download?
 
-We've made Legacy lighter than before. We only include what you need to get you started:
+LegacyCSS is super lightweight and the source files are very small:
 
 ```
-LegacyFramework
+LegacyCSS
 ├── LICENSE
 ├── README.md
-├── dist
-│   ├── legacy.css
-│   └── legacy.min.css
 ├── index.html
-└── src
-    └── legacy.sass
+└── dist
+    ├── legacy.sass
+    ├── legacy.css
+    └── legacy.min.css
+
 ```
 
 <br><br><br>
@@ -26,17 +26,11 @@ LegacyFramework
 
 #### Want us to host it?
 
-To use Legacy on your site without downloading it, include this code in your head tags:
+To use LegacyCSS on your site without downloading it, include this code in your head tags:
 
-    Coming with the next release!
-
-<br><br><br>
-
-#### Next release:
-
-LegacyCSS 4.3 = 15th April 2017
+    <link href="https://legacycss.com/legacy.css" rel="stylesheet">
 
 <br><br><br>
 
 
-[Designed and Developed by Joe Hannon](https://joexn.com)
+<center>[Designed and Developed by Joe Hannon](https://joexn.com)</center>
