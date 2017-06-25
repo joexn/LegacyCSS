@@ -1,33 +1,30 @@
-/*!
+/*
 
-  LegacyCSS 4.3
-  by joexn
+  LegacyCSS 5.0 Developer Release 1
+  by Joe Hannon
 
   https://legacycss.com
   https://github.com/joexn/LegacyCSS
+  https://twitter.com/joexn
 
-  Copyright 2017 joexn
+  Copyright Joe Hannon 2017
   Licensed under the MIT License
 
-@import url('https://fonts.googleapis.com/css?family=Poppins')
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400')
 
-$primary: #36ABC1
-$success: #41B497
-$warning: #FC6E51
-$alert: #ED4254
-$main: #333333
-$accent: #D1D1D1
-
-$primary_2: darken($primary,10%)
-$success_2: darken($success,10%)
-$warning_2: darken($warning,10%)
-$alert_2: darken($alert,10%)
-$main_2: darken($main,10%)
+$primary: #2574A9 /* Jelly Bean */
+$success: #26C281 /* Jungle Green */
+$warning: #F9690E /* Ecstasy */
+$alert: #EF4836 /* Flamingo */
+$primary_2: darken($primary,12%)
+$success_2: darken($success,12%)
+$warning_2: darken($warning,12%)
+$alert_2: darken($alert,12%)
 
 $max-width-container: 960px
-$font: "Poppins", sans-serif
+$font: "Roboto", sans-serif
 $font-size: 1.6em
-$font-weight: 200
+$font-weight: 300
 $fade-transition: .5s
 $mobile-breakpoint: 550px
 $tablet-breakpoint: 1185px
@@ -79,7 +76,7 @@ body
   line-height: 1.5
   font-weight: $font-weight
   font-family: $font
-  color: $main
+  color: #2C3E50
   margin: 0
   position: relative
 
@@ -217,7 +214,7 @@ body
     width: 100%
 
 h1, h2, h3, h4, h5, h6
-  color: $main
+  color: #2C3E50
   margin-top: 0
   margin-bottom: 2rem
   font-family: $font
@@ -266,20 +263,17 @@ p
     font-size: 1rem
 
 
-.text.primary
-  color: $primary
-
-.text.warning
-  color: $warning
-
-.text.success
-  color: $success
-
-.text.alert
-  color: $alert
-
-.text.secondary
-  color: $accent
+.text
+  .primary
+    color: $primary
+  .warning
+    color: $warning
+  .success
+    color: $success
+  .alert
+    color: $alert
+  .secondary
+    color: #ECECEC
 
 
 a
@@ -293,72 +287,87 @@ a
 
 .btn
     background-color: #FFF
-    color: #333
-    padding: 10px 20px
+    color: #FFF
+    padding: 15px 25px
     border-radius: 3px
     letter-spacing: 0.06em
-    text-transform: uppercase
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
     cursor: pointer
     font-size: 12px
     font-family: $font
+    background-color: #2C3E50
     &:hover
-      color: #333
+      color: #FFF
       box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12)
-
 .btn.primary
     background-color: $primary
-    color: #FFF
-
-
 .btn.warning
   background-color: $warning
-  color: #FFF
-
-
 .btn.alert
   background-color: $alert
-  color: #FFF
-
-
 .btn.success
   background-color: $success
-  color: #FFF
 
 
 
 input
-  margin: 40px 25px
-  width: 200px
-  display: block
-  border: none
-  padding: 10px 0
-  border-bottom: solid 1px $primary
-  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1)
-  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1)
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, $primary 4%)
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, $primary 4%)
-  background-position: -200px 0
-  background-size: 200px 100%
-  background-repeat: no-repeat
-  color: $main
-  font-size: 14px
-  &:focus, &:valid
-    box-shadow: none
+  &[type="text"], &[type="date"], &[type="datetime"], &[type="email"], &[type="number"], &[type="search"], &[type="time"], &[type="url"]
+    -webkit-transition: all 0.30s ease-in-out
+    -moz-transition: all 0.30s ease-in-out
+    -ms-transition: all 0.30s ease-in-out
+    -o-transition: all 0.30s ease-in-out
     outline: none
-    background-position: 0 0
-  &:focus::-webkit-input-placeholder, &:valid::-webkit-input-placeholder
-    color: $primary
-    font-size: 11px
-    -webkit-transform: translateY(-20px)
-    transform: translateY(-20px)
-    visibility: visible !important
-
-input::-webkit-input-placeholder
-  font-family: $font
-  -webkit-transition: all 0.3s ease-in-out
-  transition: all 0.3s ease-in-out
+    box-sizing: border-box
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    width: 100%
+    background: #fff
+    margin-bottom: 4%
+    border: 1px solid #ccc
+    padding: 3%
+    color: #555
+    outline: none
+textarea, select
+  -webkit-transition: all 0.30s ease-in-out
+  -moz-transition: all 0.30s ease-in-out
+  -ms-transition: all 0.30s ease-in-out
+  -o-transition: all 0.30s ease-in-out
+  outline: none
+  box-sizing: border-box
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  width: 100%
+  background: #fff
+  margin-bottom: 4%
+  border: 1px solid #ccc
+  padding: 3%
+  color: #555
+  font: 95% Arial, Helvetica, sans-serif
+input
+  &[type="text"]:focus, &[type="date"]:focus, &[type="datetime"]:focus, &[type="email"]:focus, &[type="number"]:focus, &[type="search"]:focus, &[type="time"]:focus, &[type="url"]:focus
+    box-shadow: 0 0 5px #2C3E50
+    padding: 3%
+    border: 1px solid #2C3E50
+textarea:focus, select:focus
+  box-shadow: 0 0 5px #2C3E50
+  padding: 3%
+  border: 1px solid #2C3E50
+input
+  &[type="submit"], &[type="button"]
+    background-color: #FFF
+    color: #FFF
+    padding: 15px 25px
+    border-radius: 3px
+    letter-spacing: 0.06em
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+    cursor: pointer
+    font-size: 12px
+    font-family: $font
+    background-color: #2C3E50
+    border: 0
+  &[type="submit"]:hover, &[type="button"]:hover
+    color: #FFF
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12)
 
 
 
@@ -367,7 +376,7 @@ table
   font-family: $font
   min-width: 100%
   background-color: #FFF
-  color: $main
+  color: #2C3E50
 
 .table-outter
   overflow-x: scroll
@@ -429,29 +438,26 @@ table
   position: relative
   background-color: #FFF
   text-align: center
-  color: $main
+  color: #2C3E50
   font-family: $font
   padding: 10rem 0
   margin-bottom: 5rem
   h1,h2,h3,h4,h5,h6,p
     line-height: 1.3
-    color: $main
+    color: #2C3E50
     font-weight: $font-weight
-.hero.default
-  color: #FFF
-  background-color: $main
-.hero.primary
-  color: #FFF
-  background-color: $primary
-.hero.success
-  color: #FFF
-  background-color: $success
-.hero.warning
-  color: #FFF
-  background-color: $warning
-.hero.alert
-  color: #FFF
-  background-color: $alert
+  &.primary
+    color: #FFF
+    background-color: $primary
+  &.success
+    color: #FFF
+    background-color: $success
+  &.warning
+    color: #FFF
+    background-color: $warning
+  &.alert
+    color: #FFF
+    background-color: $alert
 .hero
   &.primary,&.success,&.warning,&.alert,&.default
     h1,h2,h3,h4,h5,h6,p
@@ -459,20 +465,20 @@ table
 
 .message
   padding: 20px
-  background-color: $main
+  background-color: #2C3E50
   color: white
   font-weight: 400
   -webkit-transition: opacity 400ms ease-in
   -moz-transition: opacity 400ms ease-in
   transition: opacity 400ms ease-in
-.message.primary
-  background-color: $primary
-.message.success
-  background-color: $success
-.message.warning
-  background-color: $warning
-.message.alert
-  background-color: $alert
+  &.primary
+    background-color: $primary
+  &.success
+    background-color: $success
+  &.warning
+    background-color: $warning
+  &.alert
+    background-color: $alert
 
 .label
   display: inline-block
@@ -480,7 +486,7 @@ table
   white-space: nowrap
   cursor: default
   border-radius: 0
-  background: $main
+  background: #2C3E50
   color: #FFF
   -o-transition: .5s
   -ms-transition: .5s
@@ -488,14 +494,14 @@ table
   -webkit-transition: .5s
   transition: .5s
   padding: .5rem 1.3rem
-.label.primary
-  background: $primary
-.label.warning
-  background: $warning
-.label.success
-  background: $success
-.label.alert
-  background: $alert
+  .primary
+    background: $primary
+  .warning
+    background: $warning
+  .success
+    background: $success
+  .alert
+    background: $alert
 
 hr
   margin-top: 3rem
