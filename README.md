@@ -1,7 +1,7 @@
 <br><br>
 
-<h3 align="center">LegacyCSS 5.0 - Developer Release 1</h1>
-<h5 align="center">Modern Design, Lightweight Footprint.</h3>
+<h3 align="center">LegacyCSS 5.0</h1>
+<h5 align="center">Modern, Responsive and Lightweight</h3>
 
 <br><br><br><br>
 
@@ -28,7 +28,7 @@ LegacyCSS
 
 To use LegacyCSS on your site without downloading it, include this code in your head tags:
 
-    <link href="https://legacycss.com/legacy.css" rel="stylesheet">
+    <link href="https://legacycss.com/dist/legacy.min.css" rel="stylesheet">
 
 <br><br><br>
 
