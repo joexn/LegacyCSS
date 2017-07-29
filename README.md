@@ -1,36 +1,22 @@
-<br><br>
+# LegacyCSS
+Modern, Lightweight CSS Framework.
 
-<h3 align="center">LegacyCSS 5.0</h1>
-<h5 align="center">Modern, Responsive and Lightweight</h3>
+Legacy is a CSS framework that is super simple. It is a starting point, not a fully developed framework.
 
-<br><br><br><br>
 
-#### What's in the download?
+### Getting started
 
-LegacyCSS is super lightweight and the source files are very small:
+Visit the [downloads](https://legacycss.com/download) and download the latest version then extract it to your websites root (don't overwrite your index.html if you already have one!) and begin.
 
+### What's in the download?
+
+All that is included is an index.html file, legacy.css, legacy.min.css and legacy.sass.
+
+### Want us to host it?
+
+```html
+<link href="https://legacycss.com/dist/legacy.min.css" rel="stylesheet">
 ```
-LegacyCSS
-├── LICENSE
-├── README.md
-├── index.html
-└── dist
-    ├── legacy.sass
-    ├── legacy.css
-    └── legacy.min.css
+<br />
 
-```
-
-<br><br><br>
-
-
-#### Want us to host it?
-
-To use LegacyCSS on your site without downloading it, include this code in your head tags:
-
-    <link href="https://legacycss.com/dist/legacy.min.css" rel="stylesheet">
-
-<br><br><br>
-
-
-<center>[Designed and Developed by Joe Hannon](https://joexn.com)</center>
+Designed and Developed with ♥ by [Joe Hannon](https://twitter.com/joexn).
