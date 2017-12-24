@@ -1,5 +1,4 @@
-# LegacyCSS 5.0
-**The development of LegacyCSS has been temporarily stopped due to personal reasons. Legacy will be back.**
+# LegacyCSS 5.1
 
 Modern, Lightweight CSS Framework.
 
